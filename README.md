@@ -33,10 +33,13 @@ cd StampVault
 git submodule update --init    # fetch the stamp data repositories - warning: a lot of data!
 
 # local test
-php -S localhost:8000/app
+cd app/
+php -S localhost:8000
 ```
 
-Open the app in a browser. On the first run it redirects to the **setup wizard**, which:
+To serve StampVault with a web server (nginx, apache, ...) simply set the root folder to the `app/` subdirectory of the cloned repository.
+
+Then open the app in a browser. On the first run it redirects to the **setup wizard**, which:
 
 1. runs environment and data checks (PHP version, SQLite, `countries.txt`, catalogue databases, writable directories) and points you to this README if data is missing,
 2. lets you choose the login method - none, username + password, or OpenID,
@@ -68,7 +71,7 @@ The submodules are listed in the git configuration, running `git submodule updat
 
 ### Working with only part of the data
 
-All the data requires around 46 GB of space (can be reduced to 31 GB after removing the respective `.git` folders). It is very easy to only work with *part* of the data, depending on your needs. The easiest way to restrict the local data is by only checking out the world regions that you are interested in:
+All the data requires around 33 GB of available space plus around 16 GB for the `.git` folder. It is very easy to only work with *part* of the data, depending on your needs. The easiest way to restrict the local data is by only checking out the world regions that you are interested in:
 
 ```bash
 git clone https://github.com/StampVault/StampVault
@@ -81,18 +84,18 @@ git submodule update --init "app/stamps/data/Africa1" "app/stamps/data/Africa2"
 
 There are a total of 10 submodules that can be requested locally:
 
-| world region              | submodule folder                        | git repository                                      |
-| ------------------------- | --------------------------------------- | --------------------------------------------------- |
-| Africa (part 1)           | `app/stamps/data/Africa1`               | https://github.com/StampVault/Africa1               |
-| Africa (part 2)           | `app/stamps/data/Africa2`               | https://github.com/StampVault/Africa2               |
-| Antarctic & Subantarctic  | `app/stamps/data/AntarcticSubantarctic` | https://github.com/StampVault/AntarcticSubantarctic |
-| Asia                      | `app/stamps/data/Asia`                  | https://github.com/StampVault/Asia                  |
-| Atlantic & Indian Ocean   | `app/stamps/data/AtlanticIndianOcean`   | https://github.com/StampVault/AtlanticIndianOcean   |
-| Europe                    | `app/stamps/data/Europe`                | https://github.com/StampVault/Europe                |
-| International             | `app/stamps/data/International`         | https://github.com/StampVault/International         |
-| North America             | `app/stamps/data/NorthAmerica`          | https://github.com/StampVault/NorthAmerica          |
-| Oceania                   | `app/stamps/data/Oceania`               | https://github.com/StampVault/Oceania               |
-| South America             | `app/stamps/data/SouthAmerica`          | https://github.com/StampVault/SouthAmerica          |
+| world region              | submodule folder                        | approximate sizes   | git repository                                      |
+| ------------------------- | --------------------------------------- | ------------------- | --------------------------------------------------- |
+| Africa (part 1)           | `app/stamps/data/Africa1`               | 6.2 GB              | https://github.com/StampVault/Africa1               |
+| Africa (part 2)           | `app/stamps/data/Africa2`               | 6.4 GB              | https://github.com/StampVault/Africa2               |
+| Antarctic & Subantarctic  | `app/stamps/data/AntarcticSubantarctic` | 0.2 GB              | https://github.com/StampVault/AntarcticSubantarctic |
+| Asia                      | `app/stamps/data/Asia`                  | 6.1 GB              | https://github.com/StampVault/Asia                  |
+| Atlantic & Indian Ocean   | `app/stamps/data/AtlanticIndianOcean`   | 0.3 GB              | https://github.com/StampVault/AtlanticIndianOcean   |
+| Europe                    | `app/stamps/data/Europe`                | 5.0 GB              | https://github.com/StampVault/Europe                |
+| International             | `app/stamps/data/International`         | 0.3 GB              | https://github.com/StampVault/International         |
+| North America             | `app/stamps/data/NorthAmerica`          | 4.5 GB              | https://github.com/StampVault/NorthAmerica          |
+| Oceania                   | `app/stamps/data/Oceania`               | 2.7 GB              | https://github.com/StampVault/Oceania               |
+| South America             | `app/stamps/data/SouthAmerica`          | 1.9 GB              | https://github.com/StampVault/SouthAmerica          |
 
 *Notes on partial data:*
 

@@ -562,7 +562,6 @@ Southwest China|China Peoples Republic|SouthwestChina
 Straits Settlements|Great Britain|StraitsSettlements
 Sungei Ujong|Malaysia|SungeiUjong
 Szechwan|China Peoples Republic|Szechwan
-Tibet, China Peoples Republic|TibetChinaPeoplesRepublic
 Tibet|China Peoples Republic|Tibet
 Tibet, Chinese Post|China Peoples Republic|TibetChinesePost
 Tiflis|Georgia|Tiflis

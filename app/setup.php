@@ -147,52 +147,50 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && ($_POST["action"] ?? "") == "save" &&
             $useWhitelist = !empty($_POST["whitelist_found"]) && $found;
             // regenerate settings.php with the chosen values
             // the existing values of the continent/country settings are carried over.
-            $generated = `<?php
+            $generated  = "<?php\n\n";
+            $generated .= "/*******************************************************************/\n";
+            $generated .= "// central configuration, every other file only reads from here\n\n";
 
-/*******************************************************************/
-// central configuration, every other file only reads from here
+            $generated .= "// possible options: none, simple, openid\n";
+            $generated .= "\$type_of_auth = ".var_export($auth, true) . ";\n\n";
 
-// possible options: none, simple, openid
-\$type_of_auth = `.var_export($auth, true) . `;
+            $generated .= "/*******************************************************************/\n";
+            $generated .= "// \"simple\" auth\n";
+            $generated .= "\$simple_username = " . var_export($username, true) . ";\n\n";
 
-/*******************************************************************/
-// "simple" auth
-\$simple_username = ` . var_export($username, true) . `;
+            $generated .= "// Generate password hash here with:\n";
+            $generated .= "//   php -r \"echo password_hash('your-password', PASSWORD_DEFAULT);\"\n";
+            $generated .= "\$simple_password_hash = " . var_export($hash, true) . ";\n";
+            $generated .= "// NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.\n\n";
 
-// Generate password hash here with:
-//   php -r "echo password_hash('your-password', PASSWORD_DEFAULT);"
-\$simple_password_hash = ` . var_export($hash, true) . `;
-// NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.
+            $generated .= "/*******************************************************************/\n";
+            $generated .= "// \"openid\" auth\n";
+            $generated .= "\$openid_url = " . var_export($oidc[0], true) . ";\n";
+            $generated .= "\$openid_client_secret = " . var_export($oidc[1], true) . ";\n";
+            $generated .= "\$openid_client_id = " . var_export($oidc[2], true) . ";\n";
+            $generated .= "\$root_url = " . var_export($oidc[3], true) . ";\n\n";
 
-/*******************************************************************/
-// "openid" auth
-\$openid_url = ` . var_export($oidc[0], true) . `;
-\$openid_client_secret = ` . var_export($oidc[1], true) . `;
-\$openid_client_id = ` . var_export($oidc[2], true) . `;
-\$root_url = ` . var_export($oidc[3], true) . `;
+            $generated .= "/*******************************************************************/\n";
+            $generated .= "// continent/country settings\n";
+            $generated .= "// if false, the continent selector is hidden and all countries are shown\n";
+            $generated .= "\$allow_select_continent = " . var_export((bool)($allow_select_continent ?? true), true) . ";\n\n";
 
-/*******************************************************************/
-// continent/country settings
-// if false, the continent selector is hidden and all countries are shown
-\$allow_select_continent = ` . var_export((bool)($allow_select_continent ?? true), true) . `;
+            $generated .= "// if \$whitelist_countrylist non-empty: show ONLY these countries\n";
+            $generated .= "\$whitelist_countrylist = " . var_export($useWhitelist ? $found : ($whitelist_countrylist ?? []), true) . ";\n";
+            $generated .= "// if \$blacklist_countrylist non-empty: show all EXCEPT these\n";
+            $generated .= "\$blacklist_countrylist = " . var_export($blacklist_countrylist ?? [], true) . ";\n\n";
 
-// if \$whitelist_countrylist non-empty: show ONLY these countries
-\$whitelist_countrylist = ` . var_export($useWhitelist ? $found : ($whitelist_countrylist ?? []), true) . `;
-// if \$blacklist_countrylist non-empty: show all EXCEPT these
-\$blacklist_countrylist = ` . var_export($blacklist_countrylist ?? [], true) . `;
+            $generated .= "// default country per continent (fallbacks are hard-coded in index.php)\n";
+            $generated .= "\$default_countries = " . var_export($default_countries ?? [], true) . ";\n\n";
 
-// default country per continent (fallbacks are hard-coded in index.php)
-$default_countries = ` . var_export($default_countries ?? [], true) . `;
+            $generated .= "/*******************************************************************/\n\n";
 
-/*******************************************************************/
+            $generated .= "// trigers the setup wizard/checks if false\n";
+            $generated .= "\$setup_completed = true;\n\n";
 
-// trigers the setup wizard/checks if false
-\$setup_completed = true;
+            $generated .= "?>\n";
 
-?>
-`;
-
-            if(@file_put_contents(dirname(__DIR__) . "/settings.php", $generated, LOCK_EX) === false) {
+            if(@file_put_contents("settings.php", $generated, LOCK_EX) === false) {
                 $error = "Could not write settings.php - make it writable for the web server, or copy the configuration below into the file by hand and set \$setup_completed = true.";
             } else {
                 // auth happens there
