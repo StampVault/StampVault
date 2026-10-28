@@ -1,12 +1,10 @@
 # StampVault
 
+<img src="./app/assets/logo-readme.png" align="right" alt="StampVault logo" title="StampVault logo">
+
 A self-hosted web app for cataloguing and tracking a stamp collection.
 
 Plain PHP + SQLite + vanilla JavaScript - no build step, no database server, no framework. Drop it on any PHP host and open it in a browser.
-
-<p align="center">
-    <img src="https://github.com/StampVault/StampVault/blob/main/app/assets/logo-readme.png" />
-</p>
 
 ## Features
 
