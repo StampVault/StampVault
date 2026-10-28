@@ -1,0 +1,50 @@
+[submodule "app/stamps/data/AtlanticIndianOcean"]
+	path = app/stamps/data/AtlanticIndianOcean
+	url = https://github.com/StampVault/AtlanticIndianOcean.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/AntarcticSubantarctic"]
+	path = app/stamps/data/AntarcticSubantarctic
+	url = https://github.com/StampVault/AntarcticSubantarctic.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/International"]
+	path = app/stamps/data/International
+	url = https://github.com/StampVault/International.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/SouthAmerica"]
+	path = app/stamps/data/SouthAmerica
+	url = https://github.com/StampVault/SouthAmerica.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/Oceania"]
+	path = app/stamps/data/Oceania
+	url = https://github.com/StampVault/Oceania.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/Africa2"]
+	path = app/stamps/data/Africa2
+	url = https://github.com/StampVault/Africa2.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/NorthAmerica"]
+	path = app/stamps/data/NorthAmerica
+	url = https://github.com/StampVault/NorthAmerica.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/Africa1"]
+	path = app/stamps/data/Africa1
+	url = https://github.com/StampVault/Africa1.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/Asia"]
+	path = app/stamps/data/Asia
+	url = https://github.com/StampVault/Asia.git
+	shallow = true
+	depth = 1
+[submodule "app/stamps/data/Europe"]
+	path = app/stamps/data/Europe
+	url = https://github.com/StampVault/Europe.git
+	shallow = true
+	depth = 1
