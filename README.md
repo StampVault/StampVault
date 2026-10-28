@@ -1,3 +1,8 @@
+<p align="center">
+    <img src="https://github.com/StampVault/StampVault/blob/main/app/assets/logo-readme.png" />
+</p>
+
+
 # StampVault
 
 A self-hosted web app for cataloguing and tracking a stamp collection.
@@ -31,7 +36,7 @@ cd StampVault
 git submodule update --init    # fetch the stamp data repositories - warning: a lot of data!
 
 # local test
-php -S localhost:8000
+php -S localhost:8000/app
 ```
 
 Open the app in a browser. On the first run it redirects to the **setup wizard**, which:
@@ -47,7 +52,7 @@ The wizard needs write permission on `settings.php`! If it does not have it, it 
 The stamp data is far too large to keep in this repository. It lives in several git repositories, one per world region, which are added as **submodules** under `stamps/data/`:
 
 ```
-StampVault/
+StampVault/app/
 ├── index.php, login.php, stats.php, setup.php, settings.php
 ├── assets/                 # PHP endpoints, JS, CSS
 └── stamps/
@@ -72,25 +77,25 @@ All the data requires around 46 GB of space (can be reduced to 31 GB after remov
 git clone https://github.com/StampVault/StampVault
 cd StampVault
 
-git submodule update --init "stamps/data/Europe"   # just one region
+git submodule update --init "app/stamps/data/Europe"   # just one region
 # or a few at a time:
-git submodule update --init "stamps/data/Africa1" "stamps/data/Africa2"
+git submodule update --init "app/stamps/data/Africa1" "app/stamps/data/Africa2"
 ```
 
 There are a total of 10 submodules that can be requested locally:
 
-| world region              | submodule folder                    | git repository                                      |
-| ------------------------- | ----------------------------------- | --------------------------------------------------- |
-| Africa (part 1)           | `stamps/data/Africa1`               | https://github.com/StampVault/Africa1               |
-| Africa (part 2)           | `stamps/data/Africa2`               | https://github.com/StampVault/Africa2               |
-| Antarctic & Subantarctic  | `stamps/data/AntarcticSubantarctic` | https://github.com/StampVault/AntarcticSubantarctic |
-| Asia                      | `stamps/data/Asia`                  | https://github.com/StampVault/Asia                  |
-| Atlantic & Indian Ocean   | `stamps/data/AtlanticIndianOcean`   | https://github.com/StampVault/AtlanticIndianOcean   |
-| Europe                    | `stamps/data/Europe`                | https://github.com/StampVault/Europe                |
-| International             | `stamps/data/International`         | https://github.com/StampVault/International         |
-| North America             | `stamps/data/NorthAmerica`          | https://github.com/StampVault/NorthAmerica          |
-| Oceania                   | `stamps/data/Oceania`               | https://github.com/StampVault/Oceania               |
-| South America             | `stamps/data/SouthAmerica`          | https://github.com/StampVault/SouthAmerica          |
+| world region              | submodule folder                        | git repository                                      |
+| ------------------------- | --------------------------------------- | --------------------------------------------------- |
+| Africa (part 1)           | `app/stamps/data/Africa1`               | https://github.com/StampVault/Africa1               |
+| Africa (part 2)           | `app/stamps/data/Africa2`               | https://github.com/StampVault/Africa2               |
+| Antarctic & Subantarctic  | `app/stamps/data/AntarcticSubantarctic` | https://github.com/StampVault/AntarcticSubantarctic |
+| Asia                      | `app/stamps/data/Asia`                  | https://github.com/StampVault/Asia                  |
+| Atlantic & Indian Ocean   | `app/stamps/data/AtlanticIndianOcean`   | https://github.com/StampVault/AtlanticIndianOcean   |
+| Europe                    | `app/stamps/data/Europe`                | https://github.com/StampVault/Europe                |
+| International             | `app/stamps/data/International`         | https://github.com/StampVault/International         |
+| North America             | `app/stamps/data/NorthAmerica`          | https://github.com/StampVault/NorthAmerica          |
+| Oceania                   | `app/stamps/data/Oceania`               | https://github.com/StampVault/Oceania               |
+| South America             | `app/stamps/data/SouthAmerica`          | https://github.com/StampVault/SouthAmerica          |
 
 *Notes on partial data:*
 
@@ -104,11 +109,11 @@ There are a total of 10 submodules that can be requested locally:
   or, with recent git, a blobless clone and fetch data on demand:
   ```bash
   git clone --filter=blob:none https://github.com/StampVault/StampVault
-  git submodule update --init --depth 1 "stamps/data/Europe"
+  git submodule update --init --depth 1 "app/stamps/data/Europe"
   ```
 - To free up disk space again:
   ```bash
-  git submodule deinit "stamps/data/Europe"
+  git submodule deinit "app/stamps/data/Europe"
   ```
 
   Re-run `git submodule update --init <path>` later to bring it back.
