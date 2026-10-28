@@ -9,6 +9,7 @@ Plain PHP + SQLite + vanilla JavaScript - no build step, no database server, no 
 ## Features
 
 - **Catalogue browsing** per world region and country, with natural-sorted stamp lists, grouping, and filters for category, year, denomination and currency
+- **More than 900 thousand** stamp entries, many with associated stamp image
 - **Ownership tracking**: four states per stamp (mint / unused / used / first day cover) plus free-text notes
 - **Custom images**: upload or drag &amp; drop your own scan for any stamp - non-JPEG files are converted automatically (needs PHP GD)
 - **Statistics**: owned-stamp counts per continent and per country with bar charts
