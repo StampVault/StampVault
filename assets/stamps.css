@@ -1,0 +1,381 @@
+/* stamp grid, entries, state buttons, preview modal, loading overlay, toast  */
+
+.stamps-content {
+    background-color: var(--bg);
+    margin-right: 400px;
+    font-size: 0;
+}
+
+.stamps-nothing-message {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    margin-top: 100px;
+    font-weight: bold;
+    color: var(--muted);
+}
+
+.stamps-entry {
+    display: inline-block;
+    width: var(--stamp-entry-width);
+    height: 220px;
+    padding: 5px;
+    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--text);
+    border-top: 1px solid var(--text);
+    transition: background-color 0.2s;
+}
+
+.stamps-entry.inside-group {
+    border-right: 5px solid var(--border);
+}
+.stamps-entry.end-group {
+    border-right: 5px solid var(--text);
+}
+
+.stamp-actions-menu {
+    display: none;
+    position: absolute;
+    width: calc(var(--stamp-entry-width) - 5px);
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.stamp-actions-menu button {
+    display: block;
+    width: 100%;
+}
+
+.have-stamp {
+    background-color: rgba(0,255,0,0.1);
+}
+
+.dont-have-stamp {
+}
+
+.stamps-entry-image {
+    display: inline-block;
+    position: relative;
+    width: calc(100% + 10px);
+    margin: -5px -5px 0 -5px;
+    padding: 5px;
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.stamps-entry-image img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.stamp-entry-edit-notes {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    opacity: 0.1;
+    background-image: radial-gradient(white 30%, transparent);
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.hidden {
+    display: none;
+}
+
+.stamp-entry-edit-notes:hover,
+.stamp-entry-edit-notes:focus {
+    opacity: 1;
+}
+
+.stamp-entry-edit-notes.readonly {
+    display: none;
+    cursor: default;
+}
+
+.stamp-entry-edit-notes img {
+    width: 16px;
+    height: 16px;
+    filter: drop-shadow(0 16px 32px rgba(255,255,255, 1));
+}
+
+.stamp-entry-take-notes {
+    position: absolute;
+    bottom: 0px;
+    transition: opacity 0.1s;
+}
+
+.stamp-entry-take-notes input {
+    width: calc(var(--stamp-entry-width) - 10px - 30px);
+}
+
+.stamp-entry-take-notes button {
+    width: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+    transform: translateX(3px);
+}
+
+.stamp-entry-take-notes button img {
+    width: 10px;
+    height: 10px;
+}
+
+.stamp-entry-show-notes {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: -5px;
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.stamps-entry-info {
+    text-align: center;
+    font-size: 0.8rem;
+    height: 70px;
+    overflow: auto;
+}
+
+.stamp-entry-info-title {
+    width: 100%;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.stamp-entry-info-description {
+    width: 100%;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.state-toggle-row {
+    width: 100%;
+    text-align: center;
+}
+
+.state-toggle {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: calc(25% - 4px);
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.state-toggle img {
+    display: block;
+    margin: 0 auto;
+    height: 22px;
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: 0.2;
+    transition: filter 0.15s, opacity 0.15s;
+}
+
+.state-toggle.owned {
+    border-color: var(--border);
+    background: var(--hover);
+}
+
+.state-toggle.owned img {
+    filter: none;
+    opacity: 1;
+}
+
+.state-toggle:hover {
+    background: var(--hover);
+}
+
+.state-toggle.readonly {
+    pointer-events: none;
+}
+
+html.dark .state-toggle img {
+    filter: grayscale(1) invert(1);
+}
+
+html.dark .state-toggle.owned img {
+    filter: invert(1);
+}
+
+/* the note-save checkmark is black-on-transparent as well */
+html.dark .stamp-entry-take-notes button img {
+    filter: invert(1);
+}
+
+/********************/
+
+.modal-preview {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.modal-preview-container {
+    background-color: var(--panel);
+    color: var(--text);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.modal-preview-image-container {
+    background-color: rgba(0,0,0,0.2);
+    margin: -5px -10px -5px -10px;
+    padding: 10px;
+    transform: translateY(-5px);
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.modal-preview-image {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: contain;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.modal-preview-info {
+    display: flex;
+}
+
+.modal-preview-info-div {
+    flex-grow: 1;
+    width: 0;
+    min-width: 300px;
+}
+
+.modal-preview-info-title {
+    font-size: 1rem;
+}
+
+.modal-preview-info-details {
+    margin-top: 4px;
+}
+
+.modal-preview-info-tags {
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+.loading-stamps {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.loading-stamps-text {
+    position: relative;
+    width: calc(100% - 400px);
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: white;
+}
+
+/* result counter + share button above the grid */
+.result-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: var(--muted);
+}
+.share-link {
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.result-counter-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+/* skeleton placeholders while the stamps are loading */
+.skeleton {
+    pointer-events: none;
+}
+.skeleton-block {
+    background: var(--hover);
+    border-radius: 4px;
+    animation: skeleton-pulse 1.2s ease-in-out infinite;
+}
+.skeleton-image {
+    height: 110px;
+    margin: -5px -5px 10px -5px;
+}
+.skeleton-line {
+    height: 12px;
+    margin: 8px 6px;
+}
+.skeleton-short {
+    width: 60%;
+}
+@keyframes skeleton-pulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.45; }
+}
+
+/* stamp card highlighted while an image is dragged over it */
+.stamps-entry.drop-target {
+    outline: 3px dashed var(--accent);
+    outline-offset: -3px;
+    background: var(--hover);
+}
+
+/* non-blocking error/info messages (replaces alert()) */
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background: var(--panel);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 10px 20px;
+    border-radius: 6px;
+    z-index: 1000;
+    max-width: 90%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.toast.show {
+    opacity: 1;
+}

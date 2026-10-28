@@ -1,0 +1,112 @@
+/* statistics page */
+
+h1 {
+    text-align: center;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.stats-total {
+    text-align: center;
+    font-size: 15pt;
+}
+
+.stats-total-number {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+button {
+    width: 100%;
+}
+
+.stats-total-region {
+    font-weight: bold;
+}
+
+.stats-detailed-entry {
+    width: 100%;
+}
+
+.stats-detailed-entry-country {
+    display: inline-block;
+    width: 34%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+/* bar between country name and count */
+.stats-detailed-bar-wrap {
+    display: inline-block;
+    width: 44%;
+    vertical-align: middle;
+    background: var(--hover);
+}
+.stats-detailed-bar {
+    height: 14px;
+    background: var(--accent);
+}
+
+.stats-detailed-entry-number {
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+}
+
+/* continent bar chart */
+h2 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.stats-chart-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 5px 0;
+}
+
+.stats-chart-label {
+    width: 38%;
+    text-align: right;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats-chart-bar-wrap {
+    flex: 1;
+    background: var(--hover);
+}
+
+.stats-chart-bar {
+    height: 18px;
+    background: var(--accent);
+}
+
+.stats-chart-count {
+    width: 12%;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.return-button {
+    width: 50px;
+    font-weight: bold;
+    position: absolute;
+}
+
+/* the dark-mode toggle floats at the top-right corner on this page */
+.theme-toggle {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}

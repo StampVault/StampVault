@@ -1,0 +1,32 @@
+/* mobile layout (< 900px): sidebar becomes a fullscreen overlay */
+
+@media (max-width: 900px) {
+    .sidebar-content {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    .stamps-content {
+        margin-right: 0px;
+    }
+    .result-counter {
+        margin-right: 0px;
+        /* keep "Copy link" clear of the hamburger button */
+        padding-right: 52px;
+    }
+    .menu-button {
+        display: flex;
+    }
+    .large-hidden {
+        visibility: visible;
+    }
+    .small-hidden {
+        visibility: hidden;
+    }
+    .modal-preview-image-container {
+        max-width: 100%;
+    }
+    .loading-stamps-text {
+        width: 100%;
+    }
+}

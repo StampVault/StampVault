@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)" sodipodi:docname="logo.svg" version="1.1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+ <sodipodi:namedview bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="svg5" inkscape:cx="200" inkscape:cy="200" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1128" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="2.25" pagecolor="#ffffff"/>
+ <defs>
+  <filter id="ink" x="-.011765" y="-.011765" width="1.0235" height="1.0235">
+   <feTurbulence baseFrequency="0.05 0.05" numOctaves="2" result="rough" seed="4" type="fractalNoise"/>
+   <feDisplacementMap in="SourceGraphic" in2="rough" result="displaced" scale="3"/>
+   <feTurbulence baseFrequency="0.7" numOctaves="2" result="grain" seed="11" type="fractalNoise"/>
+   <feColorMatrix in="grain" result="wear" values="0 0 0 0 0                 0 0 0 0 0                 0 0 0 0 0                 0.55 0.55 0.55 0 -0.25"/>
+   <feComposite in="displaced" in2="wear" operator="in"/>
+  </filter>
+  <path id="arcTop" d="m80.66 234.44a127 127 0 11238.68 0"/>
+  <path id="arcBottom" d="m48.51 144.95a161 161 0 10302.98 0"/>
+ </defs>
+ <g fill="none" filter="url(#ink)" stroke="#181818">
+  <circle cx="200" cy="200" r="170" stroke-width="8"/>
+  <circle cx="200" cy="200" r="118" stroke-width="6"/>
+  <text fill="#181818" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" letter-spacing="4" stroke="none"><textPath startOffset="50%" text-anchor="middle" href="#arcTop">STAMPVAULT</textPath></text>
+  <text fill="#181818" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" letter-spacing="4" stroke="none"><textPath startOffset="50%" text-anchor="middle" href="#arcBottom">STAMPVAULT</textPath></text>
+  <circle cx="56" cy="200" r="5.5" fill="#181818" stroke="none"/>
+  <circle cx="344" cy="200" r="5.5" fill="#181818" stroke="none"/>
+  <line x1="92" x2="308" y1="200" y2="200" stroke-width="4.5"/>
+  <text x="200" y="200" dominant-baseline="central" fill="#181818" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" letter-spacing="1.5" stroke="#ffffff" stroke-width="14" text-anchor="middle" paint-order="stroke">06/05/1840</text>
+ </g>
+</svg>

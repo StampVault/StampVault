@@ -1,0 +1,1155 @@
+# International
+
+UN Geneva|UNGeneva
+UN New York|UNNewYork
+UN Vienna|UNVienna
+UNESCO|France|UNESCO
+Conseil de l'Europe|France|ConseildelEurope
+
+# Europe
+
+Aegean Islands|AegeanIslands
+Åland Islands|AlandIslands
+Albania|Albania
+Alderney|Alderney
+Andorra ES|AndorraES
+Andorra FR|AndorraFR
+Austria|Austria
+Azores|Azores
+Belarus|Belarus
+Belgium|Belgium
+Bosnia and Herzegovina|BosniaandHerzegovina
+Bulgaria|Bulgaria
+Croatia|Croatia
+Croatian Post Mostar|CroatianPostMostar
+Cyprus (Greek Administration)|CyprusGreekAdministration
+Cyprus (Turkish Administration)|CyprusTurkishAdministration
+Czech Republic|CzechRepublic
+Czechoslovakia|Czechoslovakia
+DDR|Germany|DDR
+Denmark|Denmark
+Estonia|Estonia
+Faroe Islands|FaroeIslands
+Finland|Finland
+Fiume|Fiume
+France|France
+Germany|Germany
+Gibraltar|Gibraltar
+Great Britain|GreatBritain
+Greece|Greece
+Greenland|Greenland
+Guernsey|Guernsey
+Hungary|Hungary
+Iceland|Iceland
+Ireland|Ireland
+Isle of Man|IsleofMan
+Italy|Italy
+Jersey|Jersey
+Kosovo|Kosovo
+Latvia|Latvia
+Liechtenstein|Liechtenstein
+Lithuania|Lithuania
+Luxembourg|Luxembourg
+Macedonia|Macedonia
+Madeira|Madeira
+Malta|Malta
+Moldova|Moldova
+Monaco|Monaco
+Montenegro|Montenegro
+Netherlands|Netherlands
+Norway|Norway
+Poland|Poland
+Portugal|Portugal
+Romania|Romania
+Russia|Russia
+Saar|Saar
+San Marino|SanMarino
+Serbia|Serbia
+Serbian Rep. B and H|SerbianRepBandH
+Slovakia|Slovakia
+Slovenia|Slovenia
+Spain|Spain
+Sweden|Sweden
+Switzerland|Switzerland
+Turkey|Turkey
+Ukraine|Ukraine
+USSR|USSR
+Vatican City|VaticanCity
+Yugoslavia|Yugoslavia
+---
+Achtyrka|Russia|Achtyrka
+Alexandretta|Turkey|Alexandretta
+Allenstein|Germany|Allenstein
+Allied Occupation|Greece|AlliedOccupation
+AMG Naples|Italy|AMGNaples
+AMG Sicily|Italy|AMGSicily
+Amur Province|Russia|AmurProvince
+Angra|Portugal|Angra
+Antequera|Spain|Antequera
+Apolda|Germany|Apolda
+Arad|Romania|Arad
+Aragon|Spain|Aragon
+Arbe/Rab|Fiume|ArbeRab
+Argyrokastron/Gjirokaster|Albania|ArgyrokastronGjirokaster
+Armavir|Russia|Armavir
+Aunus|Finland|Aunus
+Austrian Post Crete|AustrianPostCrete
+Austrian Post Turkish Empire|AustrianPostTurkishEmpire
+Austro-Hungarian Military Post|Austria|AustroHungarianMilitaryPost
+Ávila|Spain|Avila
+Bad Gottleuba|Germany|BadGottleuba
+Baden|Germany|Baden
+Banat and Bačka|Hungary|BanatandBacka
+Banja Luka|Bosnia and Herzegovina|BanjaLuka
+Baranya|Hungary|Baranya
+Barnaul|Russia|Barnaul
+Base Atlantica|Italy|BaseAtlantica
+Basel|Switzerland|Basel
+Batraki|Russia|Batraki
+Bavaria|Germany|Bavaria
+Berat|Albania|Berat
+Bergedorf|Germany|Bergedorf
+Berlin|Germany|Berlin
+Bohemia and Moravia|Czechoslovakia|BohemiaandMoravia
+Braunschweig|Germany|Braunschweig
+Bremen|Germany|Bremen
+British American Zone|Germany|BritishAmericanZone
+British Postal Administration Turkish Empire|Great Britain|BritishPostalAdministrationTurkishEmpire
+Bulgarian Occupation of Romania|BulgarianOccupationofRomania
+Burdukova|Russia|Burdukova
+Campione|Switzerland|Campione
+Carlist Government|Spain|CarlistGovernment
+Carnaro Islands|Fiume|CarnaroIslands
+Caso|Aegean Islands|Caso
+Castellorizo|France|Castellorizo
+Castelrosso|Aegean Islands|Castelrosso
+Central Albania|CentralAlbania
+Central Lithuania|CentralLithuania
+Chelyabinsk|Russia|Chelyabinsk
+Chios|Greece|Chios
+Cilicia|Turkey|Cilicia
+Cos|Aegean Islands|Cos
+Cottbus|Germany|Cottbus
+Crete|Greece|Crete
+Croatian Post East Mostar|Bosnia and Herzegovina|CroatianPostEastMostar
+Czechoslovak Legion Post|CzechoslovakLegionPost
+Dalmatia / Šibenik|Croatia|DalmatiaSibenik
+Danilov|Russia|Danilov
+Danzig|Germany|Danzig
+Debrecen|Hungary|Debrecen
+Dedeagatch|Greece|Dedeagatch
+Denikin Army|Russia|DenikinArmy
+Dibër|Albania|Diber
+Döbeln|Germany|Dobeln
+Dobrudja|Bulgaria|Dobrudja
+Dodecanese Islands|Greece|DodecaneseIslands
+Don Cossack Government|Russia|DonCossackGovernment
+Eastern Rumelia|Bulgaria|EasternRumelia
+Eastern Silesia|Austria|EasternSilesia
+Epirus|Albania|Epirus
+Far Eastern Republic|Russia|FarEasternRepublic
+Finsterwalde|Germany|Finsterwalde
+French Baden|Germany|FrenchBaden
+French Colonies|France|FrenchColonies
+French Liberation|France|FrenchLiberation
+French Postal Administration Cavalla|France|FrenchPostalAdministrationCavalla
+French Postal Administration Crete|France|FrenchPostalAdministrationCrete
+French Postal Administration Dedeagatch|France|FrenchPostalAdministrationDedeagatch
+French Postal Administration Turkish Empire|France|FrenchPostalAdministrationTurkishEmpire
+French Postal Administration Vathy|France|FrenchPostalAdministrationVathy
+French Rheinland Pfalz|Germany|FrenchRheinlandPfalz
+French Wurttemberg|Germany|FrenchWurttemberg
+French Zone|Germany|FrenchZone
+Funchal|Portugal|Funchal
+General Government|Germany|GeneralGovernment
+Geneva|Switzerland|Geneva
+German East Africa|Germany|GermanEastAfrica
+German Eastern Front|Germany|GermanEasternFront
+German Empire|Germany|GermanEmpire
+German New Guinea|Germany|GermanNewGuinea
+German Postal Administration Turkish Empire|GermanPostalAdministrationTurkishEmpire
+German Western Front|Germany|GermanWesternFront
+German WWI Occupation Belgium|GermanWWIOccupationBelgium
+German WWI Occupation Poland|Germany|GermanWWIOccupationPoland
+German WWI Occupation Romania|Germany|GermanWWIOccupationRomania
+German WWII Occupation Albania|GermanWWIIOccupationAlbania
+German WWII Occupation Alsace|Germany|GermanWWIIOccupationAlsace
+German WWII Occupation Estonia|GermanWWIIOccupationEstonia
+German WWII Occupation France|Germany|GermanWWIIOccupationFrance
+German WWII Occupation Guernsey|GermanWWIIOccupationGuernsey
+German WWII Occupation Jersey|GermanWWIIOccupationJersey
+German WWII Occupation Kotor|GermanWWIIOccupationKotor
+German WWII Occupation Kurland|GermanWWIIOccupationKurland
+German WWII Occupation Laibach|GermanWWIIOccupationLaibach
+German WWII Occupation Latvia|GermanWWIIOccupationLatvia
+German WWII Occupation Lithuania|GermanWWIIOccupationLithuania
+German WWII Occupation Ljady|GermanWWIIOccupationLjady
+German WWII Occupation Lothringen|Germany|GermanWWIIOccupationLothringen
+German WWII Occupation Luxemburg|Germany|GermanWWIIOccupationLuxemburg
+German WWII Occupation Macedonia|GermanWWIIOccupationMacedonia
+German WWII Occupation Montenegro|GermanWWIIOccupationMontenegro
+German WWII Occupation Ostland|GermanWWIIOccupationOstland
+German WWII Occupation Russia|GermanWWIIOccupationRussia
+German WWII Occupation Serbia|GermanWWIIOccupationSerbia
+German WWII Occupation Ukraine|GermanWWIIOccupationUkraine
+German WWII Occupation Zara|GermanWWIIOccupationZara
+Glauchau|Germany|Glauchau
+Görlitz|Germany|Gorlitz
+Greek Occupation|GreekOccupation
+Greek Occupation Turkey|GreekOccupationTurkey
+Grodno|Belarus|Grodno
+Grossraschen|Germany|Grossraschen
+Hamburg|Germany|Hamburg
+Hannover|Germany|Hannover
+Hatay|Turkey|Hatay
+Helgoland|Germany|Helgoland
+Himarë|Albania|Himare
+Holzhausen|Germany|Holzhausen
+Horta|Portugal|Horta
+Ikaria|Greece|Ikaria
+Ionian Islands|Greece|IonianIslands
+Istria Slovene Coast|IstriaSloveneCoast
+Italian Occupation Cephalonia and Ithaca|Greece|ItalianOccupationCephaloniaandIthaca
+Italian Occupation Corfu 1923|Greece|ItalianOccupationCorfu1923
+Italian Occupation Corfu 1941|Greece|ItalianOccupationCorfu1941
+Italian Occupation Ionian Islands|Greece|ItalianOccupationIonianIslands
+Italian Occupation Ljubljana|ItalianOccupationLjubljana
+Italian Occupation Montenegro|ItalianOccupationMontenegro
+Italian Postal Administration Albania|ItalianPostalAdministrationAlbania
+Italian Postal Administration Crete|Greece|ItalianPostalAdministrationCrete
+Italian Postal Administration Turkish Empire|ItalianPostalAdministrationTurkishEmpire
+Italian Postal Administrations Abroad|ItalianPostalAdministrationsAbroad
+Italian WWI Occupation General Issues|ItalianWWIOccupationGeneralIssues
+Italian WWI Occupation Venezia Giulia|ItalianWWIOccupationVeneziaGiulia
+Joint allied occupation zone|Germany|Jointalliedoccupationzone
+Kalymnos|Aegean Islands|Kalymnos
+Karjala|Finland|Karjala
+Karki|Aegean Islands|Karki
+Kolchak Army|Russia|KolchakArmy
+Korçë|Albania|Korce
+Kuban Cossack Government|Russia|KubanCossackGovernment
+Lemnos|Greece|Lemnos
+Leros|Aegean Islands|Leros
+Lipso|Aegean Islands|Lipso
+Löbau|Germany|Lobau
+Lombardy Venetia|Austria|LombardyVenetia
+Lübbenau|Germany|Lubbenau
+Lübeck|Germany|Lubeck
+Marienwerder|Germany|Marienwerder
+Mariupol|Russia|Mariupol
+Mecklenburg-Schwerin|Germany|MecklenburgSchwerin
+Mecklenburg-Strelitz|Germany|MecklenburgStrelitz
+Meissen|Germany|Meissen
+Memel|Lithuania|Memel
+Modena|Italy|Modena
+Mount Athos|Greece|MountAthos
+Mytilene|Greece|Mytilene
+Naples|Italy|Naples
+Netzschkau Reichenbach|Germany|NetzschkauReichenbach
+Niesky|Germany|Niesky
+Nikolajevsk|Russia|Nikolajevsk
+Nisiros|Aegean Islands|Nisiros
+North Epirus|Albania|NorthEpirus
+North German Postal District|Germany|NorthGermanPostalDistrict
+North Ingermanland|Finland|NorthIngermanland
+Oldenburg|Germany|Oldenburg
+OPD Berlin|Germany|OPDBerlin
+OPD Dresden|Germany|OPDDresden
+OPD Erfurt|Germany|OPDErfurt
+OPD Halle|Germany|OPDHalle
+OPD Leipzig|Germany|OPDLeipzig
+OPD Schwerin|Germany|OPDSchwerin
+Papal State|Italy|PapalState
+Parma|Italy|Parma
+Patmos|Aegean Islands|Patmos
+Piscopi|Aegean Islands|Piscopi
+Plauen|Germany|Plauen
+Ponta Delgada|Portugal|PontaDelgada
+Port Gdansk|Poland|PortGdansk
+Preussen|Germany|Preussen
+Regional Definitives England|Great Britain|RegionalDefinitivesEngland
+Regional Definitives Guernsey|Great Britain|RegionalDefinitivesGuernsey
+Regional Definitives Isle of Man|Great Britain|RegionalDefinitivesIsleofMan
+Regional Definitives Jersey|Great Britain|RegionalDefinitivesJersey
+Regional Definitives Northern Ireland|Great Britain|RegionalDefinitivesNorthernIreland
+Regional Definitives Scotland|Great Britain|RegionalDefinitivesScotland
+Regional Definitives Wales|Great Britain|RegionalDefinitivesWales
+Rodi|Aegean Islands|Rodi
+Romagna|Italy|Romagna
+Romanian Postal Administration Konstantinopel|RomanianPostalAdministrationKonstantinopel
+Romanian Postal Administration Turkish Empire|RomanianPostalAdministrationTurkishEmpire
+Russian Army of the North|RussianArmyoftheNorth
+Russian Army of the Northwest|RussianArmyoftheNorthwest
+Russian Army of the West|RussianArmyoftheWest
+Russian Postal Administration Turkish Empire|RussianPostalAdministrationTurkishEmpire
+Russian Zone|Germany|RussianZone
+Saargebiet|France|Saargebiet
+Saarland|France|Saarland
+Sachsen|Germany|Sachsen
+Samos|Greece|Samos
+Sardinia|Italy|Sardinia
+Saxony|Germany|Saxony
+Scarpanto|Aegean Islands|Scarpanto
+Schleswig-Holstein|Germany|SchleswigHolstein
+Schwarzenberg|Germany|Schwarzenberg
+Senegambia and Niger|France|SenegambiaandNiger
+Serbian Krajina|Croatia|SerbianKrajina
+Sevastopol|Russia|Sevastopol
+Shkodra|Albania|Shkodra
+Sicily|Italy|Sicily
+Simi|Aegean Islands|Simi
+Slesvig|Slesvig
+Sopron|Hungary|Sopron
+South Bulgaria|SouthBulgaria
+Sovereign Order of Malta|Italy|SovereignOrderofMalta
+Spremberg|Germany|Spremberg
+Stampalia|Aegean Islands|Stampalia
+Szeged|Hungary|Szeged
+Tampere|Finland|Tampere
+Tannu Tuva|Russia|TannuTuva
+Temesvar|Romania|Temesvar
+Thrace|Greece|Thrace
+Thüringen|Germany|Thuringen
+Thurn and Taxis|Germany|ThurnandTaxis
+Transbaikal Province|Russia|TransbaikalProvince
+Trieste A.M.G.V.G.|Italy|TriesteAMGVG
+Trieste Zone A|Italy|TriesteZoneA
+Trieste Zone B|Italy|TriesteZoneB
+Tuscany|Italy|Tuscany
+Upper Senegal and Niger|France|UpperSenegalandNiger
+Upper Silesia|Germany|UpperSilesia
+Veglia/Krk|Fiume|VegliaKrk
+Vlorë|Albania|Vlore
+West Thrace|Greece|WestThrace
+Western Hungary/Lajtabanat|WesternHungaryLajtabanat
+Western Ukraine|WesternUkraine
+Wrangel Army|Russia|WrangelArmy
+Württemberg|Germany|Wurttemberg
+Yugoslavia, Senta|YugoslaviaSenta
+Zurich|Switzerland|Zurich
+
+# Asia
+
+Afghanistan|Afghanistan
+Armenia|Armenia
+Azerbaijan|Azerbaijan
+Bahrain|Bahrain
+Bangladesh|Bangladesh
+Bhutan|Bhutan
+Brunei|Brunei
+Cambodia|Cambodia
+China, People's Republic|ChinaPeoplesRepublic
+Georgia|Georgia
+Hong Kong|HongKong
+India|India
+Indochina|Indochina
+Indonesia|Indonesia
+Iran|Iran
+Iraq|Iraq
+Israel|Israel
+Japan|Japan
+Jordan|Jordan
+Kazakhstan|Kazakhstan
+Kuwait|Kuwait
+Kyrgyzstan|Kyrgyzstan
+Laos|Laos
+Lebanon|Lebanon
+Macau|Macau
+Malaysia|Malaysia
+Maldives|Maldives
+Mongolia|Mongolia
+Myanmar|Myanmar
+Nepal|Nepal
+North Korea|NorthKorea
+Oman|Oman
+Pakistan|Pakistan
+Palestine|Palestine
+Philippines|Philippines
+Qatar|Qatar
+Saudi Arabia|SaudiArabia
+Singapore|Singapore
+South Korea|SouthKorea
+Sri Lanka|SriLanka
+Syria|Syria
+Taiwan|Taiwan
+Tajikistan|Tajikistan
+Thailand|Thailand
+Timor-Leste|TimorLeste
+Turkmenistan|Turkmenistan
+United Arab Emirates|UnitedArabEmirates
+Uzbekistan|Uzbekistan
+Vietnam|Vietnam
+Yemen|Yemen
+---
+Abu Dhabi|United Arab Emirates|AbuDhabi
+Aden|Yemen|Aden
+Ajman|United Arab Emirates|Ajman
+Alaouites|Syria|Alaouites
+Alwar|India|Alwar
+Amoy|China Peoples Republic|Amoy
+Annam and Tonkin|Vietnam|AnnamandTonkin
+Ashgabat|Russia|Ashgabat
+Azad Hind|India|AzadHind
+Bahawalpur|Pakistan|Bahawalpur
+Bamra|India|Bamra
+Barwani|India|Barwani
+Batum|Georgia|Batum
+Bhopal|India|Bhopal
+Bhor|India|Bhor
+Bijawar|India|Bijawar
+British Administration Malaya|Great Britain|BritishAdministrationMalaya
+British Middle East Forces|Great Britain|BritishMiddleEastForces
+British Occupation Baghdad|Iraq|BritishOccupationBaghdad
+British Occupation Bushire|Iran|BritishOccupationBushire
+British Occupation Mosul|Iraq|BritishOccupationMosul
+British Palestine|BritishPalestine
+British Postal Administration China|Great Britain|BritishPostalAdministrationChina
+Bundi|India|Bundi
+Burma|Myanmar|Burma
+Bussahir|India|Bussahir
+Central China|China Peoples Republic|CentralChina
+Ceylon|Sri Lanka|Ceylon
+Chamba|India|Chamba
+Charkhari|India|Charkhari
+Chefoo|China Peoples Republic|Chefoo
+China Expeditionary Forces|India|ChinaExpeditionaryForces
+China, Empire|China Peoples Republic|ChinaEmpire
+Chinese Offices in Tibet|China Peoples Republic|ChineseOfficesinTibet
+Chinkiang|China Peoples Republic|Chinkiang
+Chungking|China Peoples Republic|Chungking
+Cochin China|Vietnam|CochinChina
+Cochin|India|Cochin
+Datia|India|Datia
+Dhar|India|Dhar
+Dubai|United Arab Emirates|Dubai
+East China|China Peoples Republic|EastChina
+Egyptian Occupation Palestine|EgyptianOccupationPalestine
+Emperor Bao Dai Period|Vietnam|EmperorBaoDaiPeriod
+Faridkot|India|Faridkot
+Federal Territory (Wilayah Persekutuan)|Malaysia|FederalTerritoryWilayahPersekutuan
+Federated Malay States|FederatedMalayStates
+Federation of South Arabia|Yemen|FederationofSouthArabia
+Foochow|China Peoples Republic|Foochow
+Formosa|China Peoples Republic|Formosa
+French Cochin China|France|FrenchCochinChina
+French India|France|FrenchIndia
+French Postal Administration China|France|FrenchPostalAdministrationChina
+Fujairah|United Arab Emirates|Fujairah
+Fukien|China Peoples Republic|Fukien
+German Kiauchau|GermanKiauchau
+German Postal Administration China|GermanPostalAdministrationChina
+Gwalior|India|Gwalior
+Hadhramaut, Kathiri State in|Yemen|HadhramautKathiriStatein
+Hankow|China Peoples Republic|Hankow
+Hejaz|Saudi Arabia|Hejaz
+Ho Chi Minh Period|Vietnam|HoChiMinhPeriod
+Hunan|China Peoples Republic|Hunan
+Hupeh|China Peoples Republic|Hupeh
+Hyderabad|India|Hyderabad
+Ichang|China Peoples Republic|Ichang
+Idar|India|Idar
+Île Rouad|France|IleRouad
+Indian Expeditionary Forces|IndianExpeditionaryForces
+Indochinese Postal Administration Canton|France|IndochinesePostalAdministrationCanton
+Indochinese Postal Administration China|France|IndochinesePostalAdministrationChina
+Indochinese Postal Administration Hoi Hao|France|IndochinesePostalAdministrationHoiHao
+Indochinese Postal Administration Kouang-Tchéou-Wan|France|IndochinesePostalAdministrationKouangTcheouWan
+Indochinese Postal Administration Mongtze|France|IndochinesePostalAdministrationMongtze
+Indochinese Postal Administration Packhoi|France|IndochinesePostalAdministrationPackhoi
+Indochinese Postal Administration Tchongking|France|IndochinesePostalAdministrationTchongking
+Indochinese Postal Administration Yunnansen|France|IndochinesePostalAdministrationYunnansen
+Indonesia, Djokjakarta|IndonesiaDjokjakarta
+Indonesia, Republic|IndonesiaRepublic
+Indore/Holkar|IndoreHolkar
+Italian Postal Administration China|ItalianPostalAdministrationChina
+Jaipur|India|Jaipur
+Japanese Administration of Taiwan|JapaneseAdministrationofTaiwan
+Japanese Occupation Central China|JapaneseOccupationCentralChina
+Japanese Occupation Honan|JapaneseOccupationHonan
+Japanese Occupation Hopei|JapaneseOccupationHopei
+Japanese Occupation South China|JapaneseOccupationSouthChina
+Japanese Postal Administration China|JapanesePostalAdministrationChina
+Japanese Postal Administration Korea|JapanesePostalAdministrationKorea
+Japanese WWII Occupation Andaman and Nicobar Islands|JapaneseWWIIOccupationAndamanandNicobarIslands
+Japanese WWII Occupation Brunei|JapaneseWWIIOccupationBrunei
+Japanese WWII Occupation Burma|JapaneseWWIIOccupationBurma
+Japanese WWII Occupation Hong Kong|JapaneseWWIIOccupationHongKong
+Japanese WWII Occupation Java|JapaneseWWIIOccupationJava
+Japanese WWII Occupation Johore|JapaneseWWIIOccupationJohore
+Japanese WWII Occupation Kedah|JapaneseWWIIOccupationKedah
+Japanese WWII Occupation Malacca|JapaneseWWIIOccupationMalacca
+Japanese WWII Occupation Malayan Postal Union|JapaneseWWIIOccupationMalayanPostalUnion
+Japanese WWII Occupation Negri Sembilan|JapaneseWWIIOccupationNegriSembilan
+Japanese WWII Occupation North Borneo|JapaneseWWIIOccupationNorthBorneo
+Japanese WWII Occupation Pahang|JapaneseWWIIOccupationPahang
+Japanese WWII Occupation Penang|JapaneseWWIIOccupationPenang
+Japanese WWII Occupation Perak|JapaneseWWIIOccupationPerak
+Japanese WWII Occupation Philippines|JapaneseWWIIOccupationPhilippines
+Japanese WWII Occupation Sarawak|JapaneseWWIIOccupationSarawak
+Japanese WWII Occupation Selangor|JapaneseWWIIOccupationSelangor
+Japanese WWII Occupation Straits Settlements|JapaneseWWIIOccupationStraitsSettlements
+Japanese WWII Occupation Sumatra|JapaneseWWIIOccupationSumatra
+Japanese WWII Occupation Trengganu|JapaneseWWIIOccupationTrengganu
+Jasdan|India|Jasdan
+Jhalawar|India|Jhalawar
+Jind|India|Jind
+Johore|Malaysia|Johore
+Jordanian Occupation Palestine|JordanianOccupationPalestine
+Kedah|Malaysia|Kedah
+Kelantan|Malaysia|Kelantan
+Khor Fakkan|United Arab Emirates|KhorFakkan
+Kiangsi|China Peoples Republic|Kiangsi
+Kirin Heilungkiang|China Peoples Republic|KirinHeilungkiang
+Kishangarh|India|Kishangarh
+Kiukiang|China Peoples Republic|Kiukiang
+Korea|North Korea|Korea
+Kwangsi|China Peoples Republic|Kwangsi
+Labuan|Malaysia|Labuan
+Latakia|Syria|Latakia
+Mahra|Yemen|Mahra
+Malacca / Melaka|Malaysia|MalaccaMelaka
+Malaya, Federation|MalayaFederation
+Manama|United Arab Emirates|Manama
+Manchukuo|China Peoples Republic|Manchukuo
+Morvi|India|Morvi
+Muscat and Oman|MuscatandOman
+Muscat|Oman|Muscat
+Nabha|India|Nabha
+Nagorno Karabakh|Armenia|NagornoKarabakh
+Nandgaon|India|Nandgaon
+Nanking|China Peoples Republic|Nanking
+Negeri Sembilan|Malaysia|NegeriSembilan
+Nejd|Saudi Arabia|Nejd
+Netherlands Indies|NetherlandsIndies
+North Borneo|Malaysia|NorthBorneo
+North China|China Peoples Republic|NorthChina
+North Korean Occ. South Korea|NorthKoreanOccSouthKorea
+North Vietnam|NorthVietnam
+North Yemen|NorthYemen
+Northeast China|China Peoples Republic|NortheastChina
+Northeast|China Peoples Republic|Northeast
+Northwest China|China Peoples Republic|NorthwestChina
+Orchha|India|Orchha
+Pahang|Malaysia|Pahang
+Patiala|India|Patiala
+Penang / Pulau Pinang|Malaysia|PenangPulauPinang
+Perak|Malaysia|Perak
+Perlis|Malaysia|Perlis
+Poonch|India|Poonch
+Port Arthur and Dairen|China Peoples Republic|PortArthurandDairen
+Portuguese India|PortugueseIndia
+Rajasthan|India|Rajasthan
+Rajpipla|India|Rajpipla
+Ras al-Khaimah|United Arab Emirates|RasalKhaimah
+Riouw Archipelago|Indonesia|RiouwArchipelago
+Russian Postal Administration China|RussianPostalAdministrationChina
+Ryukyu Islands|Japan|RyukyuIslands
+Sabah|Malaysia|Sabah
+Sarawak|Malaysia|Sarawak
+Seiyun, Kathiri State of|Yemen|SeiyunKathiriStateof
+Selangor|Malaysia|Selangor
+Shanghai|China Peoples Republic|Shanghai
+Sharjah|United Arab Emirates|Sharjah
+Shensi|China Peoples Republic|Shensi
+Sinkiang|China Peoples Republic|Sinkiang
+Sirmoor|India|Sirmoor
+Soruth|India|Soruth
+South China|China Peoples Republic|SouthChina
+South Moluccas (Maluku Selatan)|Indonesia|SouthMoluccasMalukuSelatan
+South Vietnam|SouthVietnam
+South Yemen|SouthYemen
+Southwest China|China Peoples Republic|SouthwestChina
+Straits Settlements|Great Britain|StraitsSettlements
+Sungei Ujong|Malaysia|SungeiUjong
+Szechwan|China Peoples Republic|Szechwan
+Tibet, China Peoples Republic|TibetChinaPeoplesRepublic
+Tibet|China Peoples Republic|Tibet
+Tibet, Chinese Post|China Peoples Republic|TibetChinesePost
+Tiflis|Georgia|Tiflis
+Timor|Timor-Leste|Timor
+Transcaucasian Federated Republics|Armenia|TranscaucasianFederatedRepublics
+Travancore-Cochin|India|TravancoreCochin
+Travancore|India|Travancore
+Trengganu|Malaysia|Trengganu
+Trucial States|United Arab Emirates|TrucialStates
+Tsing Hai|China Peoples Republic|TsingHai
+Tsingtau|China Peoples Republic|Tsingtau
+U.S. Postal Administration China|United States|USPostalAdministrationChina
+UAR Occupation Palestine|Egypt|UAROccupationPalestine
+Umm al Qiwain|United Arab Emirates|UmmalQiwain
+United Arab Republic Syria|UnitedArabRepublicSyria
+Upper Yafa|Yemen|UpperYafa
+Vietcong|Vietcong
+Wadwan|India|Wadwan
+Watlam|China Peoples Republic|Watlam
+West Irian|Indonesia|WestIrian
+Wuhu|China Peoples Republic|Wuhu
+Yemen, Kingdom|YemenKingdom
+Yunnan|China Peoples Republic|Yunnan
+
+# Africa
+
+Algeria|Algeria
+Angola|Angola
+Benin|Benin
+Botswana|Botswana
+Burkina Faso|BurkinaFaso
+Burundi|Burundi
+Cabo Verde|CaboVerde
+Cameroon|Cameroon
+Central African Republic|CentralAfricanRepublic
+Chad|Chad
+Comoros|Comoros
+Congo, DR|CongoDR
+Congo, Republic|CongoRepublic
+Côte d'Ivoire|Cote dIvoire|CotedIvoire
+Djibouti|Djibouti
+Egypt|Egypt
+Equatorial Guinea|EquatorialGuinea
+Eritrea|Eritrea
+Eswatini|Eswatini
+Ethiopia|Ethiopia
+Gabon|Gabon
+Gambia|Gambia
+Ghana|Ghana
+Guinea|Guinea
+Guinea-Bissau|GuineaBissau
+Kenya|Kenya
+Lesotho|Lesotho
+Liberia|Liberia
+Libya|Libya
+Madagascar|Madagascar
+Malawi|Malawi
+Mali|Mali
+Mauritania|Mauritania
+Mauritius|Mauritius
+Mayotte|Mayotte
+Morocco|Morocco
+Mozambique|Mozambique
+Namibia|Namibia
+Niger|Niger
+Nigeria|Nigeria
+Réunion|Reunion|Reunion
+Rwanda|Rwanda
+São Tomé and Príncipe|Sao Tome and Principe|SaoTomeandPrincipe
+Senegal|Senegal
+Seychelles|Seychelles
+Sierra Leone|SierraLeone
+Somalia|Somalia
+South Africa|SouthAfrica
+South Sudan|SouthSudan
+Sudan|Sudan
+Tanzania|Tanzania
+Togo|Togo
+Tunisia|Tunisia
+Uganda|Uganda
+Western Sahara|WesternSahara
+Zambia|Zambia
+Zimbabwe|Zimbabwe
+---
+Afars and Issas|Djibouti|AfarsandIssas
+Aguera, La|Spain|AgueraLa
+Anjouan|Comoros|Anjouan
+Basutoland|Lesotho|Basutoland
+Bechuanaland Protectorate|Botswana|BechuanalandProtectorate
+Belgian Congo|BelgianCongo
+Belgian Occupation of German East Africa|BelgianOccupationofGermanEastAfrica
+Biafra|Nigeria|Biafra
+Bophuthatswana|South Africa|Bophuthatswana
+British Administration Eritrea|Great Britain|BritishAdministrationEritrea
+British Administration Somalia|Great Britain|BritishAdministrationSomalia
+British Administration Tripolitania|Great Britain|BritishAdministrationTripolitania
+British Army Post Egypt|BritishArmyPostEgypt
+British Bechuanaland|Great Britain|BritishBechuanaland
+British Central Africa|Great Britain|BritishCentralAfrica
+British East Africa Forces|Great Britain|BritishEastAfricaForces
+British East Africa|Great Britain|BritishEastAfrica
+British Postal Administration French Morocco|Great Britain|BritishPostalAdministrationFrenchMorocco
+British Postal Administration Madagascar|Great Britain|BritishPostalAdministrationMadagascar
+British Postal Administration Morocco|Great Britain|BritishPostalAdministrationMorocco
+British Postal Administration Spanish Morocco|Great Britain|BritishPostalAdministrationSpanishMorocco
+British South Africa Company|Great Britain|Zimbabwe|BritishSouthAfricaCompany
+British Tangier|Morocco|BritishTangier
+Cameroon Expeditionary Force|CameroonExpeditionaryForce
+Cape Juby|Spain|CapeJuby
+Cape of Good Hope|South Africa|CapeofGoodHope
+Ciskei|South Africa|Ciskei
+Cyrenaica|Italy|Cyrenaica
+Dahomey|Benin|Dahomey
+Diego Suarez|Madagascar|DiegoSuarez
+East Africa and Uganda Protectorates|Great Britain|EastAfricaandUgandaProtectorates
+Egyptian Expeditionary Force|EgyptianExpeditionaryForce
+Elobey, Annobón and Corisco|Spain|ElobeyAnnobonandCorisco
+Fernando Pó|Spain|FernandoPo
+Fezzan|Libya|Fezzan
+French Benin|France|FrenchBenin
+French Congo|France|FrenchCongo
+French Equatorial Africa|France|FrenchEquatorialAfrica
+French Guinea|France|FrenchGuinea
+French Niger|France|FrenchNiger
+French Postal Administration Alexandria|France|FrenchPostalAdministrationAlexandria
+French Postal Administration Ethiopia|France|FrenchPostalAdministrationEthiopia
+French Postal Administration Morocco|France|FrenchPostalAdministrationMorocco
+French Postal Administration Port Lagos|France|FrenchPostalAdministrationPortLagos
+French Postal Administration Port Said|France|FrenchPostalAdministrationPortSaid
+French Postal Administration Zanzibar|France|FrenchPostalAdministrationZanzibar
+French Somali Coast|France|FrenchSomaliCoast
+French Sudan|France|FrenchSudan
+French Tangier|Morocco|FrenchTangier
+French Togo|France|FrenchTogo
+French West Africa|France|FrenchWestAfrica
+German Cameroon|GermanCameroon
+German Postal Administration Morocco|GermanPostalAdministrationMorocco
+German South West Africa|GermanSouthWestAfrica
+German Togo|GermanTogo
+Ghadames|Libya|Ghadames
+Gold Coast|Great Britain|GoldCoast
+Grande Comore|GrandeComore
+Griqualand West|South Africa|GriqualandWest
+Ifni|Spain|Ifni
+Indian Police Forces in Cambodia|IndianPoliceForcesinCambodia
+Indian Police Forces in Congo|IndianPoliceForcesinCongo
+Indian Police Forces in Gaza|IndianPoliceForcesinGaza
+Indian Police Forces in Korea|IndianPoliceForcesinKorea
+Indian Police Forces in Laos|IndianPoliceForcesinLaos
+Indian Police Forces in Laos And Vietnam|IndianPoliceForcesinLaosAndVietnam
+Indian Police Forces in Vietnam|IndianPoliceForcesinVietnam
+Inhambane|Mozambique|Inhambane
+Italian Cirenaica|ItalianCirenaica
+Italian Colonies|ItalianColonies
+Italian East Africa|ItalianEastAfrica
+Italian Eritrea|ItalianEritrea
+Italian Ethiopia|ItalianEthiopia
+Italian Libya|ItalianLibya
+Italian Somaliland|ItalianSomaliland
+Katanga|Congo DR|Katanga
+Kenya and Uganda|KenyaandUganda
+Kenya, Uganda and Tanganyika|KenyaUgandaandTanganyika
+Kionga|Mozambique|Kionga
+Lagos|Nigeria|Lagos
+Lourenço Marques|Mozambique|LourencoMarques
+Mafeking|South Africa|Mafeking
+Mafia|Tanzania|Mafia
+Mahajanga|Madagascar|Mahajanga
+Melilla|Spain|Melilla
+Middle Congo|France|MiddleCongo
+Mohéli|Comoros|Moheli
+Mozambique Company|MozambiqueCompany
+Natal|South Africa|Natal
+New Republic|South Africa|NewRepublic
+Niger Coast Protectorate|NigerCoastProtectorate
+North Morocco|NorthMorocco
+Northern Nigeria|NorthernNigeria
+Northern Rhodesia|Zambia|NorthernRhodesia
+Nossi Be|Madagascar|NossiBe
+Nyasaland|Malawi|Nyasaland
+Nyassa|Mozambique|Nyassa
+Obock|Djibouti|Obock
+Oil Rivers Protectorate|Nigeria|OilRiversProtectorate
+Oltre Giuba|Italy|OltreGiuba
+Orange Free State|South Africa|OrangeFreeState
+Orange River Colony|South Africa|OrangeRiverColony
+Portuguese Africa|PortugueseAfrica
+Portuguese Congo|PortugueseCongo
+Portuguese Guinea|PortugueseGuinea
+Quelimane|Mozambique|Quelimane
+Rhodesia and Nyasaland|Zimbabwe|RhodesiaandNyasaland
+Rhodesia|Zimbabwe|Rhodesia
+Río de Oro|Spain|RiodeOro
+Rio Muni|Spain|RioMuni
+Ruanda Urundi|Burundi|RuandaUrundi
+Somaliland Protectorate|Great Britain|SomalilandProtectorate
+South African Republic|SouthAfricanRepublic
+South Kasai|Congo DR|SouthKasai
+South West Africa|Namibia|SouthWestAfrica
+Southern Nigeria|SouthernNigeria
+Southern Rhodesia|Zimbabwe|SouthernRhodesia
+Spanish Guinea|SpanishGuinea
+Spanish Morocco|SpanishMorocco
+Spanish Sahara|SpanishSahara
+Spanish Tangier|Morocco|SpanishTangier
+Spanish West Africa|SpanishWestAfrica
+Ste. Marie de Madagascar|SteMariedeMadagascar
+Stellaland|South Africa|Stellaland
+Suez Canal|Egypt|SuezCanal
+Tanganyika|Tanzania|Tanganyika
+Tete|Mozambique|Tete
+Tetuán|Morocco|Tetuan
+Transkei|South Africa|Transkei
+Transvaal|South Africa|Transvaal
+Tripolitania|Italy|Tripolitania
+U.K.T.T.|Cameroon|UKTT
+UAR|Egypt|UAR
+Ubangi Shari|Central African Republic|UbangiShari
+Upper Volta|Burkina Faso|UpperVolta
+Venda|South Africa|Venda
+Zambézia|Mozambique|Zambezia
+Zanzibar|Tanzania|Zanzibar
+Zil Elwannyen Sesel (Outer Islands)|Seychelles|ZilElwannyenSeselOuterIslands
+Zil Elwannyen Sesel|Seychelles|ZilElwannyenSesel
+Zululand|South Africa|Zululand
+
+# North America
+
+Anguilla|Anguilla
+Antigua and Barbuda|AntiguaandBarbuda
+Aruba|Aruba
+Bahamas|Bahamas
+Barbados|Barbados
+Belize|Belize
+British Virgin Islands|BritishVirginIslands
+Canada|Canada
+Cayman Islands|CaymanIslands
+Costa Rica|CostaRica
+Cuba|Cuba
+Curaçao|Curacao|Curacao
+Danish West Indies|DanishWestIndies
+Dominica|Dominica
+Dominican Republic|DominicanRepublic
+El Salvador|ElSalvador
+Grenada|Grenada
+Grenadines of Grenada|GrenadinesofGrenada
+Guadeloupe|Guadeloupe
+Guatemala|Guatemala
+Haiti|Haiti
+Honduras|Honduras
+Jamaica|Jamaica
+Leeward Islands|LeewardIslands
+Martinique|Martinique
+Mexico|Mexico
+Montserrat|Montserrat
+Netherlands Antilles|NetherlandsAntilles
+Netherlands Caribbean|NetherlandsCaribbean
+Nevis|Nevis
+Nicaragua|Nicaragua
+Panama|Panama
+Puerto Rico|PuertoRico
+Sint Maarten|SintMaarten
+St. Kitts|StKitts
+St. Lucia|StLucia
+St. Vincent and the Grenadines|StVincentandtheGrenadines
+Trinidad and Tobago|TrinidadandTobago
+Turks and Caicos Islands|TurksandCaicosIslands
+United States|UnitedStates
+---
+Aberdeen|United States|Aberdeen
+Abingdon|United States|Abingdon
+Albany|United States|Albany
+Alexandria|United States|Alexandria
+Anderson Court House|United States|AndersonCourtHouse
+Annapolis|United States|Annapolis
+Antigua|Antigua and Barbuda|Antigua
+Athens|United States|Athens
+Atlanta|United States|Atlanta
+Austin, Miss.|United States|AustinMiss
+Austin, Tex.|United States|AustinTex
+Autaugaville|United States|Autaugaville
+Balcony Falls|United States|BalconyFalls
+Baltimore, Md.|United States|BaltimoreMd
+Baltimore|United States|Baltimore
+Barbuda|Antigua and Barbuda|Barbuda
+Barnwell Court House|United States|BarnwellCourtHouse
+Baton Rouge|United States|BatonRouge
+Beaumont|United States|Beaumont
+Bequia|St Vincent and the Grenadines|Bequia
+Bluffton|United States|Bluffton
+Bonaire|Netherlands Caribbean|Bonaire
+Boscawen|United States|Boscawen
+Boston, Mass.|United States|BostonMass
+Brattleboro|United States|Brattleboro
+Bridgeville|United States|Bridgeville
+British Canada|Great Britain|BritishCanada
+British Columbia/Vancouver Island|Great Britain|BritishColumbiaVancouverIsland
+British Honduras|Great Britain|BritishHonduras
+British Postal Administration Nevis|Great Britain|BritishPostalAdministrationNevis
+Caicos Islands|Turks and Caicos Islands|CaicosIslands
+Camden|United States|Camden
+Canal Zone|Panama|CanalZone
+Canouan|St Vincent and the Grenadines|Canouan
+Canton|United States|Canton
+Carolina City|United States|CarolinaCity
+Cartersville|United States|Cartersville
+Cayes of Belize|CayesofBelize
+Chapel Hill|United States|ChapelHill
+Charleston, S.C.|United States|CharlestonSC
+Charleston|United States|Charleston
+Charlottesville|United States|Charlottesville
+Chattanooga|United States|Chattanooga
+Christiansburg|United States|Christiansburg
+Cincinnati, Ohio|United States|CincinnatiOhio
+Cleveland, Ohio|United States|ClevelandOhio
+Coamo|Puerto Rico|Coamo
+Colaparchee|United States|Colaparchee
+Columbia, S.C.|United States|ColumbiaSC
+Columbia, Tenn.|United States|ColumbiaTenn
+Columbus|United States|Columbus
+Confederate States|United States|ConfederateStates
+Courtland|United States|Courtland
+Dalton|United States|Dalton
+Danville|United States|Danville
+Demopolis|United States|Demopolis
+Eatonton|United States|Eatonton
+Emory|United States|Emory
+Fincastle|United States|Fincastle
+Forsyth|United States|Forsyth
+Franklin|United States|Franklin
+Fraziersville|United States|Fraziersville
+Fredericksburg|United States|Fredericksburg
+Gainesville|United States|Gainesville
+Galveston|United States|Galveston
+Gaston|United States|Gaston
+Georgetown|United States|Georgetown
+Goliad|United States|Goliad
+Gonzales|United States|Gonzales
+Greensboro, Ala.|United States|GreensboroAla
+Greensboro, N.C.|United States|GreensboroNC
+Greenville Court House|United States|GreenvilleCourtHouse
+Greenville|United States|Greenville
+Greenwood Depot|United States|GreenwoodDepot
+Grenadines of St. Vincent|St Vincent and the Grenadines|GrenadinesofStVincent
+Griffin|United States|Griffin
+Grove Hill|United States|GroveHill
+Guanacaste|Costa Rica|Guanacaste
+Hallettsville|United States|Hallettsville
+Hamburgh|United States|Hamburgh
+Harrisburg|United States|Harrisburg
+Hawaii|United States|Hawaii
+Helena|United States|Helena
+Hillsboro|United States|Hillsboro
+Hollandale|United States|Hollandale
+Houston|United States|Houston
+Huntsville|United States|Huntsville
+Independence|United States|Independence
+Isabella|United States|Isabella
+Iuka|United States|Iuka
+Jackson|United States|Jackson
+Jacksonville, Ala|United States|JacksonvilleAla
+Jacksonville, Fla|United States|JacksonvilleFla
+Jetersville|United States|Jetersville
+Jonesboro|United States|Jonesboro
+Kingston|United States|Kingston
+Knoxville|United States|Knoxville
+La Grange|United States|LaGrange
+Lake City|United States|LakeCity
+Laurens Court House|United States|LaurensCourtHouse
+Lenoir|United States|Lenoir
+Lexington, Miss|United States|LexingtonMiss
+Lexington, Va|United States|LexingtonVa
+Liberty|United States|Liberty
+Limestone Springs|United States|LimestoneSprings
+Livingston|United States|Livingston
+Lockport|United States|Lockport
+Louisville, Ky.|United States|LouisvilleKy
+Lynchburg|United States|Lynchburg
+Macon|United States|Macon
+Madison Court House|United States|MadisonCourtHouse
+Madison|United States|Madison
+Marietta|United States|Marietta
+Marion|United States|Marion
+Mayreau|St Vincent and the Grenadines|Mayreau
+Memphis|United States|Memphis
+Micanopy|United States|Micanopy
+Millbury|United States|Millbury
+Milledgeville|United States|Milledgeville
+Milton|United States|Milton
+Mobile|United States|Mobile
+Montgomery|United States|Montgomery
+Mt. Lebanon|United States|MtLebanon
+Mustique|St Vincent and the Grenadines|Mustique
+Nashville|United States|Nashville
+New Brunswick|Great Britain|NewBrunswick
+New Haven|United States|NewHaven
+New Orleans|United States|NewOrleans
+New Smyrna|United States|NewSmyrna
+New York, N.Y.|United States|NewYorkNY
+New York|United States|NewYork
+Newfoundland|Great Britain|Newfoundland
+Norfolk|United States|Norfolk
+Nova Scotia|Great Britain|NovaScotia
+Oakway|United States|Oakway
+Palm Island|St Vincent and the Grenadines|PalmIsland
+Pensacola|United States|Pensacola
+Petersburg|United States|Petersburg
+Philadelphia, Pa.|United States|PhiladelphiaPa
+Pittsylvania Court House|United States|PittsylvaniaCourtHouse
+Plains of Dura|United States|PlainsofDura
+Pleasant Shade|United States|PleasantShade
+Plum Creek|United States|PlumCreek
+Ponce|Puerto Rico|Ponce
+Port Gibson|United States|PortGibson
+Port Lavaca|United States|PortLavaca
+Prince Edward Island|Great Britain|PrinceEdwardIsland
+Providence|United States|Providence
+Raleigh|United States|Raleigh
+Redonda|Antigua and Barbuda|Redonda
+Rheatown|United States|Rheatown
+Richmond|United States|Richmond
+Ringgold|United States|Ringgold
+Rutherfordton|United States|Rutherfordton
+Saba|Netherlands Caribbean|Saba
+Salem|United States|Salem
+Salisbury|United States|Salisbury
+San Antonio|United States|SanAntonio
+Savannah|United States|Savannah
+Selma|United States|Selma
+Spanish Cuba|SpanishCuba
+Spanish West Indies|Cuba|SpanishWestIndies
+Sparta|United States|Sparta
+Spartanburg|United States|Spartanburg
+St. Christopher, Nevis and Anguilla|StChristopherNevisandAnguilla
+St. Christopher|Nevis|StChristopher
+St. Eustatius|Netherlands Caribbean|StEustatius
+St. Kitts and Nevis|StKittsandNevis
+St. Louis, Mo.|United States|StLouisMo
+St. Louis|United States|StLouis
+St. Vincent|St Vincent and the Grenadines|StVincent
+Statesville|United States|Statesville
+Sumter|United States|Sumter
+Talbotton|United States|Talbotton
+Talladega|United States|Talladega
+Tellico Plains|United States|TellicoPlains
+Thomasville|United States|Thomasville
+Tobago Cays|St Vincent and the Grenadines|TobagoCays
+Tobago|Trinidad and Tobago|Tobago
+Trinidad|Trinidad and Tobago|Trinidad
+Tullahoma|United States|Tullahoma
+Turks Islands|Turks and Caicos Islands|TurksIslands
+Tuscaloosa|United States|Tuscaloosa
+Tuscumbia|United States|Tuscumbia
+U.S. Cuba|USCuba
+Union Island|St Vincent and the Grenadines|UnionIsland
+Uniontown|United States|Uniontown
+Unionville|United States|Unionville
+Valdosta|United States|Valdosta
+Victoria, Tex.|United States|VictoriaTex
+Walterboro|United States|Walterboro
+Warrenton|United States|Warrenton
+Washington|United States|Washington
+Weatherford|United States|Weatherford
+Young Island|St Vincent and the Grenadines|YoungIsland
+Zelaya / Bluefields|Nicaragua|ZelayaBluefields
+
+# South America
+
+Argentina|Argentina
+Bolivia|Bolivia
+Brazil|Brazil
+Chile|Chile
+Colombia|Colombia
+Ecuador|Ecuador
+French Guiana|FrenchGuiana
+Guyana|Guyana
+Paraguay|Paraguay
+Peru|Peru
+Suriname|Suriname
+Uruguay|Uruguay
+Venezuela|Venezuela
+---
+Buenos Aires|Argentina|BuenosAires
+Córdoba|Argentina|Cordoba
+Corrientes|Argentina|Corrientes
+Brazil Zeppelin Flights|BrazilZeppelinFlights
+Talca|Chile|Talca
+Chilean Occupation of Peru|ChileanOccupationofPeru
+Antioquia|Colombia|Antioquia
+Bolívar|Colombia|Bolivar
+Boyaca|Colombia|Boyaca
+Cúcuta|Colombia|Cucuta
+Cundinamarca|Colombia|Cundinamarca
+Santander|Colombia|Santander
+Tolima|Colombia|Tolima
+Galápagos Islands|Ecuador|GalapagosIslands
+Inini|France|Inini
+British Guiana|Great Britain|BritishGuiana
+Carupano|Venezuela|Carupano
+Guayana|Venezuela|Guayana
+Marino|Venezuela|Marino
+Maturin|Venezuela|Maturin
+
+# Oceania
+
+Aitutaki|Aitutaki
+Australia|Australia
+Christmas Island|ChristmasIsland
+Cocos (Keeling) Islands|CocosKeelingIslands
+Cook Islands|CookIslands
+Fiji|Fiji
+French Oceania|FrenchOceania
+French Polynesia|FrenchPolynesia
+Guam|Guam
+Kiribati|Kiribati
+Marshall Islands|MarshallIslands
+Micronesia|Micronesia
+Nauru|Nauru
+New Caledonia|NewCaledonia
+New Zealand|NewZealand
+Niuafoou|Niuafoou
+Niue|Niue
+Norfolk Island|NorfolkIsland
+Palau|Palau
+Papua New Guinea|PapuaNewGuinea
+Penrhyn Island|PenrhynIsland
+Pitcairn Islands|PitcairnIslands
+Samoa|Samoa
+Solomon Islands|SolomonIslands
+Tokelau|Tokelau
+Tonga|Tonga
+Tuvalu|Tuvalu
+Vanuatu|Vanuatu
+Wallis and Futuna|WallisandFutuna
+---
+BCOF|Australia|BCOF
+British New Guinea|Papua New Guinea|BritishNewGuinea
+Funafuti|Tuvalu|Funafuti
+German Caroline Islands|GermanCarolineIslands
+German Mariana Islands|GermanMarianaIslands
+German Marshall Islands|GermanMarshallIslands
+German Samoa|GermanSamoa
+Gilbert and Ellice Islands|Tuvalu|GilbertandElliceIslands
+Gilbert Islands|Kiribati|GilbertIslands
+Mariana Islands|United States|MarianaIslands
+Nanumaga|Tuvalu|Nanumaga
+Nanumea|Tuvalu|Nanumea
+Netherlands New Guinea|NetherlandsNewGuinea
+New Britain|Australia|NewBritain
+New Guinea|Papua New Guinea|NewGuinea
+New Hebrides|Vanuatu|NewHebrides
+New South Wales|Australia|NewSouthWales
+Niutao|Tuvalu|Niutao
+North West Pacific Islands|Australia|NorthWestPacificIslands
+Nui|Tuvalu|Nui
+Nukufetau|Tuvalu|Nukufetau
+Nukulaelae|Tuvalu|Nukulaelae
+Papua|Papua New Guinea|Papua
+Queensland|Australia|Queensland
+Rarotonga|Cook Islands|Rarotonga
+South Australia|SouthAustralia
+Tahiti|France|Tahiti
+Tasmania|Australia|Tasmania
+UNTEA|Papua New Guinea|UNTEA
+Vaitupu|Tuvalu|Vaitupu
+Victoria|Australia|Victoria
+Western Australia|WesternAustralia
+
+# Antarctic & Subantarctic
+
+Australian Antarctic|AustralianAntarctic
+British Antarctic|BritishAntarctic
+French Southern and Antarctic Territories|FrenchSouthernandAntarcticTerritories
+Ross Dependency|RossDependency
+Falkland Islands Dependencies|FalklandIslandsDependencies
+Graham Land|Falkland Islands|GrahamLand
+South Georgia|Falkland Islands|SouthGeorgia
+South Georgia and South Sandwich Islands|Falkland Islands|SouthGeorgiaandSouthSandwichIslands
+South Orkneys|Falkland Islands|SouthOrkneys
+South Shetlands|Falkland Islands|SouthShetlands
+
+# Atlantic & Indian Ocean
+
+Ascension|Ascension
+Bermuda|Bermuda
+British Indian Ocean|BritishIndianOcean
+Falkland Islands|FalklandIslands
+St. Helena|StHelena
+St. Pierre et Miquelon|StPierreetMiquelon
+Tristan da Cunha|TristandaCunha

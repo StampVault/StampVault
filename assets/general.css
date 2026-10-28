@@ -1,0 +1,128 @@
+:root {
+    --bg: #fafafa;
+    --panel: #ffffff;
+    --text: #222222;
+    --muted: #666666;
+    --border: #dddddd;
+    --hover: #f3f3f3;
+    --accent: #2f5d9f;
+
+    --stamp-entry-width: 200px;
+}
+
+body.dark,
+html.dark {
+    --bg: #121212;
+    --panel: #1e1e1e;
+    --text: #e8e8e8;
+    --muted: #aaaaaa;
+    --border: #333333;
+    --hover: #2a2a2a;
+    --accent: #7eb2ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.2s, color 0.2s;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 6px 9px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    cursor: pointer;
+}
+button:disabled {
+    opacity: 0.75;
+}
+
+button:hover:enabled {
+    background: var(--hover);
+}
+
+button a {
+    display: block;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-button {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    width: 38px;
+    height: 34px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background: var(--hover);
+}
+
+/* the 3 bars */
+.menu-button span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--text);
+    border-radius: 2px;
+    transition: background 0.2s;
+}
+
+/* invisible on large screens; mobile.css shows it below 900px */
+.large-hidden {
+    visibility: hidden;
+}
+
+.busy-indicator {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    right: 5px;
+    bottom: 5px;
+}
+
+/* dark-mode toggle */
+.theme-toggle {
+    width: 38px;
+    height: 34px;
+    font-size: 16px;
+}
+
+/* back-to-top button: fades in after scrolling down */
+.back-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: 45px;
+    width: 38px;
+    height: 34px;
+    font-size: 14px;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 100;
+}
+.back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+}
