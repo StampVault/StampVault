@@ -229,7 +229,7 @@ document.getElementById("modalPreview").addEventListener("click", hideModalPrevi
 //  Esc   close the preview
 //   ?    show shortcuts info
 document.addEventListener("keydown", ev => {
-    if(ev.key == "Escape") { hideModalPreviewStamp(); return; }
+    if(ev.key == "Escape") { hideModalPreviewStamp(); hideWelcome(); return; }
     if(ev.ctrlKey || ev.metaKey || ev.altKey) return;
     if(ev.target.matches("input, select, textarea")) return;
     switch(ev.key) {
@@ -239,7 +239,7 @@ document.addEventListener("keydown", ev => {
         case "t":  window.scrollTo({ top: 0, behavior: "smooth" }); break;
         case "b":  window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" }); break;
         case "d":  toggleTheme(); break;
-        case "?":  showToast("Shortcuts: / search, n/p next/previous country, t top, b bottom, d dark mode, Esc close");
+        case "?":  showWelcome(); break;
     }
 });
 
@@ -411,3 +411,27 @@ function adjustStampWidth() {
     }
 }
 adjustStampWidth();
+
+/*******************************************************************/
+// welcome screen
+// overview of how to use the app: shown once on the first visit (localStorage flag), reopened with the "?" toolbar button or the "?" key
+
+function showWelcome() {
+    document.getElementById("welcomeOverlay").classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+    document.getElementById("welcomeClose").focus();
+}
+function hideWelcome() {
+    document.getElementById("welcomeOverlay").classList.add("hidden");
+    document.body.style.overflow = "auto";
+    localStorage.setItem("welcomeSeen", "1");
+}
+
+document.getElementById("welcomeButton").addEventListener("click", showWelcome);
+document.getElementById("welcomeOverlay").addEventListener("click", ev => {
+    if(ev.target.classList.contains("welcome-overlay-bg")) hideWelcome();
+});
+document.getElementById("welcomeClose").addEventListener("click", hideWelcome);
+
+// first visit -> show the overview once
+if(localStorage.getItem("welcomeSeen") != "1") showWelcome();

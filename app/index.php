@@ -90,7 +90,7 @@ setcookie("category", $default_category, $cookie_opts);
     var CACHE_denominations = [];
     var CACHE_currencies = [];
 
-    const PROJECT_NAME = "My Stamp Collection";
+    const PROJECT_NAME = "StampVault";
     var TITLE_SUFFIX = <?php echo json_encode(!empty($_SESSION["readonly"]) ? " (read-only)" : ""); ?>;
     var UI_readonly = <?php echo empty($_SESSION["readonly"]) ? "false" : "true"; ?>;
 
@@ -122,6 +122,7 @@ setcookie("category", $default_category, $cookie_opts);
         <div class="result-counter" id="resultCounter">
             <span id="resultCounterText"></span>
             <span class="result-counter-buttons">
+                <button id="welcomeButton" class="theme-toggle" aria-label="how to use" title="How to use (?)">?</button>
                 <button id="themeToggle" class="theme-toggle" aria-label="toggle dark mode" title="Toggle dark mode (d)">&#9789;</button>
                 <button id="shareLink" class="share-link" title="Copy a link to the current view">Copy link</button>
             </span>
@@ -231,6 +232,54 @@ setcookie("category", $default_category, $cookie_opts);
         <div class="extra-actions">
             <button id="gotoStats">Show statistics</button>
             <button id="extraReadonly">Toggle read-only interface</button>
+        </div>
+    </div>
+
+    <div id="welcomeOverlay" class="welcome-overlay hidden">
+        <div class="welcome-overlay-bg"></div>
+        <div class="welcome-box">
+            <h2>Welcome to StampVault</h2>
+            <p class="welcome-sub">A quick overview - reopen it any time with the <b>?</b> button above the grid or the <b>?</b> key.</p>
+
+            <div class="welcome-cols">
+                <section>
+                    <h3>Browsing</h3>
+                    <ul>
+                        <li>Pick a world region at the top of the sidebar, or stay on <i>World</i> for all of them.</li>
+                        <li>Click a country to load its stamps. Type in the search box (key <kbd>/</kbd>) to find a country by name or alias.</li>
+                        <li>Narrow the grid with the filters: category, decade, year, denomination, currency, free text and ownership (<i>have</i> / <i>have not</i>). The counter bar shows how many stamps match.</li>
+                        <li>Click a stamp card for a large preview with details and tags.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Your collection</h3>
+                    <ul>
+                        <li>Each card carries a row of four icons: <b>mint / unused / used / first day cover</b> - click one to toggle that ownership state.</li>
+                        <li><b>Edit note</b> (in the card's actions menu) adds a personal note; notes save automatically.</li>
+                        <li><b>Upload custom image</b> attaches your own scan - or simply drag &amp; drop an image file onto the card.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Extras</h3>
+                    <ul>
+                        <li><b>Copy link</b> puts a shareable URL of the current view on the clipboard.</li>
+                        <li>The <b>+</b> button at the bottom of the sidebar opens the statistics and the read-only mode.</li>
+                        <li>Dark mode: the &#9789; button or key <kbd>d</kbd>.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Keyboard shortcuts</h3>
+                    <ul class="welcome-keys">
+                        <li><kbd>/</kbd> search country</li>
+                        <li><kbd>n</kbd> / <kbd>p</kbd> next / previous country</li>
+                        <li><kbd>t</kbd> top · <kbd>b</kbd> bottom</li>
+                        <li><kbd>d</kbd> dark mode</li>
+                        <li><kbd>?</kbd> this overview · <kbd>Esc</kbd> close</li>
+                    </ul>
+                </section>
+            </div>
+
+            <button id="welcomeClose" class="welcome-close">Start collecting</button>
         </div>
     </div>
 
