@@ -17,6 +17,21 @@ Plain PHP + SQLite + vanilla JavaScript - no build step, no database server, no 
 - **Setup wizard**: on first open it checks the environment and data, then lets you pick the login method and set a password - afterwards it doubles as a self-test page (log in and navigate to `setup.php`)
 - Three authentication modes: none, username + password (bcrypt), or OpenID Connect
 
+## Screenshots
+
+<div align="center">
+    <a href="screenshots/welcome-screen.png"><img src="screenshots/welcome-screen.png" width="45%" alt="Welcome message with stamp grid in background"></a>
+    <a href="screenshots/mainscreen.png"><img src="screenshots/mainscreen.png" width="45%" alt="Stamp grid with filters and result counter"></a>
+</div>
+<div align="center">
+    <a href="screenshots/detailedview.png"><img src="screenshots/detailedview.png" width="45%" alt="Detailed view of a stamp entry"></a>
+    <a href="screenshots/mainscreen-darkmode.png"><img src="screenshots/mainscreen-darkmode.png" width="45%" alt="The collection in dark mode"></a>
+</div>
+<div align="center">
+    <a href="screenshots/statistics.png"><img src="screenshots/statistics.png" width="45%" alt="Statistics per continent and country"></a>
+    <a href="screenshots/setup-wizard.png"><img src="screenshots/setup-wizard.png" width="45%" alt="First-run setup wizard with checks and login method"></a>
+</div>
+
 ## Requirements
 
 - PHP **8.0+** with the `php-sqlite3` extension
