@@ -9,7 +9,7 @@ Plain PHP + SQLite + vanilla JavaScript - no build step, no database server, no 
 ## Features
 
 - **Catalogue browsing** per world region and country, with natural-sorted stamp lists, grouping, and filters for category, year, denomination and currency
-- **More than 900 thousand** stamp entries, many with associated stamp image
+- Almost **one million** stamp entries available, most with associated stamp image
 - **Ownership tracking**: four states per stamp (mint / unused / used / first day cover) plus free-text notes
 - **Custom images**: upload or drag &amp; drop your own scan for any stamp - non-JPEG files are converted automatically (needs PHP GD)
 - **Statistics**: owned-stamp counts per continent and per country with bar charts
@@ -155,13 +155,13 @@ All configuration lives in `settings.php`:
 The data is sourced from a variety of freely-accessible sources online.
 
 **Will the data be updated?**  
-There is no guarantee or promise about any data updates. A best effort attempt will be done to update the data every now and then. If you have any missing data, please feel free to open pull requests for the data repositories with your new data.
+There is no guarantee or promise about any data updates. A best effort attempt will be done to update the data every now and then. If you have any missing data, please feel free to open pull requests in the data repositories with your updates.
 
 **Who are you?**  
-I'm just someone who collects stamps and over time has built up this web application to help managing my own collection. By now it is pretty polished and works quite well, and I thought others might benefit from it to.
+I'm just someone who collects stamps and over time has built up this web application to help me manage my own collection. By now it is pretty polished and works quite well, and I thought others might benefit from it to.
 
 **Can I support you?**  
-Well, you can support this project directly, other than by contributing data. But if you want to show your appreciation with a donation, there are a few open source projects I'm a heavy user and a big fan of that you can support instead:
+Well, you can't support this project directly, other than by contributing data. But if you want to show your appreciation with a donation, there are a few open source projects I'm a heavy user and a big fan of that you can support instead:
 
 - KDE: https://kde.org
 - PhotoQt: https://photoqt.org
