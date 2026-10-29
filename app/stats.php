@@ -32,7 +32,7 @@ foreach(countries_by_continent() as $continent => $entries) {
         $db = new SQLite3($fn);
 
         // sum of all four ownership flags (rows with all flags 0 add 0 anyway)
-        $num = (int)($db->querySingle("SELECT IFNULL(SUM(mint),0) + IFNULL(SUM(unused),0) + IFNULL(SUM(used),0) + IFNULL(SUM(fdc),0 FROM collection") ?? 0);
+        $num = (int)($db->querySingle("SELECT IFNULL(SUM(mint),0) + IFNULL(SUM(unused),0) + IFNULL(SUM(used),0) + IFNULL(SUM(fdc),0) FROM collection") ?? 0);
         $number_detailed[$realcountry] = $num;
         $continent_count += $num;
     }
@@ -65,7 +65,6 @@ $region_order = array_keys($total_count);
 
     <link rel="stylesheet" href="assets/general.css">
     <link rel="stylesheet" href="assets/stats.css">
-    <script src="assets/stats.js"></script>
     <script>
     const REGION_COUNTRIES = <?php echo json_encode($list_countries); ?>;
     const DETAILED_DATA = <?php echo json_encode($number_detailed); ?>;
@@ -119,6 +118,7 @@ if($chart_max > 0) {
 
 <div id="statsDetailedList" class="stats-detailed-list"></div>
 
+<script src="assets/stats.js"></script>
 <script>
 showDetailedStats(<?php echo json_encode($region_order[0]); ?>);
 </script>
