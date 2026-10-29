@@ -272,9 +272,9 @@ setcookie("category", $default_category, $cookie_opts);
                     <ul class="welcome-keys">
                         <li><kbd>/</kbd> search country</li>
                         <li><kbd>n</kbd> / <kbd>p</kbd> next / previous country</li>
-                        <li><kbd>t</kbd> top · <kbd>b</kbd> bottom</li>
+                        <li><kbd>t</kbd> top, <kbd>b</kbd> bottom</li>
                         <li><kbd>d</kbd> dark mode</li>
-                        <li><kbd>?</kbd> this overview · <kbd>Esc</kbd> close</li>
+                        <li><kbd>?</kbd> this overview, <kbd>Esc</kbd> close</li>
                     </ul>
                 </section>
             </div>
