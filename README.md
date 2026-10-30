@@ -74,8 +74,8 @@ StampVault/app/
     ├── data/
     │   ├── countries.txt   # country list + continent headers (small)
     │   ├── Europe/         # git submodule
-    │   ├── Africa1/        # git submodule - countries A–L
-    │   ├── Africa2/        # git submodule - countries M–Z
+    │   ├── Africa1/        # git submodule - countries A-L
+    │   ├── Africa2/        # git submodule - countries M-Z
     │   └── ...
     ├── collection/         # YOUR ownership data - never in git
     ├── imageuploads/       # YOUR uploaded scans - never in git
@@ -99,7 +99,7 @@ git submodule update --init "app/stamps/data/Africa1" "app/stamps/data/Africa2"
 
 There are a total of 10 submodules that can be requested locally:
 
-| world region              | submodule folder                        | approximate sizes   | git repository                                      |
+| world region              | submodule folder                        | approximate size    | git repository                                      |
 | ------------------------- | --------------------------------------- | ------------------- | --------------------------------------------------- |
 | Africa (part 1)           | `app/stamps/data/Africa1`               | 6.2 GB              | https://github.com/StampVault/Africa1               |
 | Africa (part 2)           | `app/stamps/data/Africa2`               | 6.4 GB              | https://github.com/StampVault/Africa2               |
@@ -162,7 +162,7 @@ The simple login can require a 6-digit one-time code (TOTP, RFC 6238) in additio
 
 To use this additional security, follow these steps:
 
-1. Generate a random 32-character base32 secret and copy it into `$simple_otp_secret` in `settings.php`. There are different ways to generate such a random string, choose whichever method works best for you:
+1. Generate a random 32-character base32 secret and copy it into `$simple_otp_secret` in `settings.php`. There are many different ways to generate such a random string, two of which are listed here for reference, but you can choose whichever method you prefer:
 - `OpenSSL`:
 ```bash
 openssl rand -hex 20 | xxd -r -p | base32
@@ -174,7 +174,7 @@ php -r '$A="ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";$d=random_bytes(20);$o="";for($i=0
 2. Add the same key to your authenticator app - choose the *manual entry* / *enter a setup key* option (6 digits, 30-second period).
 3. Log out and back in: the form now also asks for the one-time code, and a used code cannot be replayed within its validity window.
 
-Failed logins are counted per IP and per account: every failure delays the reply by 1–5 seconds, and after 5 failures within 10 minutes the login is locked for 15 minutes - doubling with every further failure. A successful login resets the counters. The error message is identical for a wrong password and a wrong one-time code, so a failed attempt never reveals which factor was wrong.
+Failed logins are counted per IP and per account: every failure delays the reply by 1-5 seconds, and after 5 failures within 10 minutes the login is locked for 15 minutes - doubling with every further failure. A successful login resets the counters. The error message is identical for a wrong password and a wrong one-time code, so a failed attempt never reveals which factor was wrong.
 
 ## Security notes
 
@@ -197,8 +197,8 @@ I'm just someone who collects stamps and over time has built up this web applica
 **Can I support you?**  
 Well, you can't support this project directly, other than by contributing data. But if you want to show your appreciation with a donation, there are a few open source projects I'm a heavy user and a big fan of that you can support instead:
 
-- KDE: https://kde.org
-- PhotoQt: https://photoqt.org
+- KDE: https://kde.org/
+- PhotoQt: https://photoqt.org/
 - JellyFin: https://jellyfin.org/
 
 
