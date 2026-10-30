@@ -156,6 +156,25 @@ All configuration lives in `settings.php`:
 | `$documentation_url`                                | where the setup wizard points when data is missing  |
 | `$setup_completed`                                  | `false` -> every page redirects to the setup wizard |
 
+### Enabling the one-time password
+
+The simple login can require a 6-digit one-time code (TOTP, RFC 6238) in addition to the password - any authenticator app works (Aegis, Google Authenticator, 1Password, etc.).
+
+To use this additional security, follow these steps:
+
+1. Generate a random 32-character base32 secret and copy it into `$simple_otp_secret` in `settings.php`. There are different ways to generate such a random string, choose whichever method works best for you:
+- `OpenSSL`:
+```bash
+openssl rand -hex 20 | xxd -r -p | base32
+```
+- `PHP`:
+```bash
+php -r '$A="ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";$d=random_bytes(20);$o="";for($i=0;$i<20;$i+=5){$b="";for($j=0;$j<5;$j++)$b.=sprintf("%08b",ord($d[$i+$j]));for($k=0;$k<8;$k++)$o.=$A[bindec(substr($b,$k*5,5))];}echo $o."\n";'
+```
+2. Add the same key to your authenticator app - choose the *manual entry* / *enter a setup key* option (6 digits, 30-second period).
+3. Log out and back in: the form now also asks for the one-time code, and a used code cannot be replayed within its validity window.
+
+Failed logins are counted per IP and per account: every failure delays the reply by 1–5 seconds, and after 5 failures within 10 minutes the login is locked for 15 minutes - doubling with every further failure. A successful login resets the counters. The error message is identical for a wrong password and a wrong one-time code, so a failed attempt never reveals which factor was wrong.
 
 ## Security notes
 

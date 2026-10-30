@@ -163,6 +163,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && ($_POST["action"] ?? "") == "save" &&
             $generated .= "\$simple_password_hash = " . var_export($hash, true) . ";\n";
             $generated .= "// NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.\n\n";
 
+            $generated .= "// optional TOTP, empty => off\n";
+            $generated .= "// check the README for instructions as to how to fill this\n";
+            $generated .= "$simple_otp_secret = \"\";\n\n";
+
             $generated .= "/*******************************************************************/\n";
             $generated .= "// \"openid\" auth\n";
             $generated .= "\$openid_url = " . var_export($oidc[0], true) . ";\n";
