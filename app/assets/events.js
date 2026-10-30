@@ -262,6 +262,16 @@ document.getElementById("gotoStats").addEventListener("click", () => {
     window.location = "stats.php";
 });
 
+// "Log out": ends the session SERVER-side
+document.getElementById("logoutButton").addEventListener("click", async () => {
+    try {
+        await apiPost("assets/logout.php", new FormData());
+    } catch(err) {
+        // fall through -> login.php redirects anyway
+    }
+    window.location = "login.php";
+});
+
 // "Copy link": copies the URL of the current view into the clipboard
 document.getElementById("shareLink").addEventListener("click", async () => {
     try {

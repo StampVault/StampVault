@@ -232,6 +232,7 @@ setcookie("category", $default_category, $cookie_opts);
         <div class="extra-actions">
             <button id="gotoStats">Show statistics</button>
             <button id="extraReadonly">Toggle read-only interface</button>
+            <button id="logoutButton">Log out</button>
         </div>
     </div>
 

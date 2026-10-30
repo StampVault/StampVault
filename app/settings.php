@@ -12,7 +12,7 @@ $simple_username = 'user';
 
 // Generate password hash here with:
 //   php -r "echo password_hash('your-password', PASSWORD_DEFAULT);"
-$simple_password_hash = '$2y$12$fmzVt/xnsiGG1nYpPz4LfeeTsQ3we/ztboI/Nxbs.dNvhi8I.Vnri';
+$simple_password_hash = '';
 // NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.
 
 // optional TOTP, empty => off
@@ -45,6 +45,6 @@ $default_countries = array (
 /*******************************************************************/
 
 // trigers the setup wizard/checks if false
-$setup_completed = true;
+$setup_completed = false;
 
 ?>

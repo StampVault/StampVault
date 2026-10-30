@@ -142,7 +142,7 @@ function otp_verify(string $code): bool {
     $code = preg_replace('/\D/', "", $code);
     if(strlen($code) != 6) return false;
 
-    $fn = dirname(__DIR__) . "/stamps/logs/otp_state.json";
+    $fn = "stamps/logs/otp_state.json";
     $state = is_file($fn)
     ? (int)(@json_decode((string)@file_get_contents($fn), true)["counter"] ?? 0) : 0;
 
