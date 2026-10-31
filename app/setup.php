@@ -3,6 +3,7 @@
 
 include "settings.php";
 include "assets/common.php";
+include "assets/qrcode.php";
 
 bootstrap_session();
 
@@ -18,6 +19,62 @@ if(!empty($setup_completed)) {
 
 if(empty($_SESSION["csrf"]))
     $_SESSION["csrf"] = bin2hex(random_bytes(32));
+
+/*******************************************************************/
+// one-time password setup
+// the enrollment secret lives in the session so the QR code stays identical across validation errors (a changing code would desynchronise the user's authenticator app)
+// ?newotp=1 discards it and starts over
+if(!empty($_GET["newotp"])) {
+    unset($_SESSION["setup_otp_secret"]);
+    header("Location: setup.php");
+    die;
+}
+if(empty($_SESSION["setup_otp_secret"])) {
+    // 160 bits
+    $_SESSION["setup_otp_secret"] = setup_b32_encode(random_bytes(20));
+}
+$otp_secret = $_SESSION["setup_otp_secret"];
+
+// the otpauth:// URI encoded in the QR code (issuer "StampVault")
+$otp_user = trim($_POST["username"] ?? ($simple_username ?? ""));
+if($otp_user === "")
+    $otp_user = "admin";
+$otp_uri = "otpauth://totp/" . rawurlencode("StampVault:" . $otp_user)
+                             . "?secret=" . rawurlencode($otp_secret)
+                             . "&issuer=" . rawurlencode("StampVault")
+                             . "&algorithm=SHA1&digits=6&period=30";
+
+// local mirrors of login.php's helpers - enough to verify one enrollment code during setup
+function setup_b32_encode(string $raw): string {
+    $alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
+    $bits = "";
+    for($i = 0; $i < strlen($raw); $i++)
+        $bits .= str_pad(decbin(ord($raw[$i])), 8, "0", STR_PAD_LEFT);
+    $out = "";
+    foreach(str_split($bits, 5) as $chunk)
+        $out .= $alpha[(int)bindec(str_pad($chunk, 5, "0"))];
+    return $out;
+}
+function base32_decode(string $b32): string {
+    $b32 = strtoupper(preg_replace('/[^A-Z2-7]/i', "", $b32));
+    $bits = "";
+    foreach(str_split($b32) as $c) {
+        $v = strpos("ABCDEFGHIJKLMNOPQRSTUVWXYZ234567", $c);
+        if($v === false) return "";
+        $bits .= str_pad(decbin($v), 5, "0", STR_PAD_LEFT);
+    }
+    $out = "";
+    foreach(str_split($bits, 8) as $byte)
+        if(strlen($byte) == 8) $out .= chr(bindec($byte));
+        return $out;
+}
+function setup_totp_at(string $key, int $counter): string {
+    $hash = hash_hmac("sha1", str_pad(pack("J", $counter), 8, "\0", STR_PAD_LEFT), $key, true);
+    $off  = ord($hash[19]) & 0x0F;
+    $num  = ((ord($hash[$off]) & 0x7F) << 24) | (ord($hash[$off + 1]) << 16)
+    | (ord($hash[$off + 2]) << 8) | ord($hash[$off + 3]);
+    return str_pad($num % 1000000, 6, "0", STR_PAD_LEFT);
+}
 
 /*******************************************************************/
 // the checks
@@ -135,6 +192,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && ($_POST["action"] ?? "") == "save" &&
                 $hash = password_hash($password, PASSWORD_DEFAULT);
         }
 
+        // one-time password enrollment
+        $otp_secret_save = (string)($simple_otp_secret ?? "");
+        if($error === "" && $auth == "simple" && !empty($_POST["otp_enable"])) {
+            $key  = setup_b32_decode($otp_secret);
+            $code = preg_replace('/\D/', "", (string)($_POST["otp_code"] ?? ""));
+            $ok   = false;
+            if(strlen($key) >= 10 && strlen($code) == 6) {
+                $now = time();
+                for($step = -1; $step <= 1; $step++)
+                    if(hash_equals(setup_totp_at($key, intdiv($now, 30) + $step), $code)) {
+                        $ok = true;
+                        break;
+                    }
+            }
+            if(!$ok)
+                $error = "The one-time password code did not match. Scan the QR code again, wait for a fresh code in the app and re-enter it.";
+            else
+                $otp_secret_save = $otp_secret;
+        }
+
         $oidc = [trim($_POST["openid_url"]     ?? ""),
                  trim($_POST["openid_client_id"] ?? ""),
                  trim($_POST["openid_client_secret"] ?? ""),
@@ -164,7 +241,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && ($_POST["action"] ?? "") == "save" &&
             $generated .= "// NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.\n\n";
 
             $generated .= "// optional TOTP, empty => off\n";
-            $generated .= "// check the README for instructions as to how to fill this\n";
+            $generated .= "// filled during setup. Otherwise, check the README for instructions as to how to fill this\n";
             $generated .= "$simple_otp_secret = \"\";\n\n";
 
             $generated .= "/*******************************************************************/\n";
@@ -305,6 +382,22 @@ $doc = "<a href=\"https://github.com/StampVault/StampVault\">the documentation</
                     <input type="password" name="password2" autocomplete="new-password">
                 </label>
                 <div class="muted">Stored as a bcrypt hash - never in plain text.</div>
+                <hr>
+                <label>
+                    <input type="checkbox" name="otp_enable" id="otp-enable" checked>
+                    &nbsp;Enable a one-time password (TOTP)
+                </label>
+                <div id="otp-setup">
+                    <p class="muted">Scan the code with an authenticator app (Google Authenticator, Aegis, 2FAS, 1Password, etc.). It then shows a fresh 6-digit code every 30 seconds - type the current one below to confirm that the enrollment worked.</p>
+                    <div class="qrbox"><?php echo qr_svg($otp_uri); ?></div>
+                    <div class="muted">No camera at hand? Enter this key in the app instead:<br>
+                        <code class="otpkey"><?php echo htmlspecialchars(implode(" ", str_split($otp_secret, 4))); ?></code>
+                        &nbsp;<a href="setup.php?newotp=1">generate a different key</a>
+                    </div>
+                    <label>Confirmation - the 6-digit code the app shows right now:<br>
+                        <input type="text" name="otp_code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" placeholder="123456">
+                    </label>
+                </div>
             </fieldset>
 
             <fieldset id="sec-openid">
@@ -331,9 +424,9 @@ $doc = "<a href=\"https://github.com/StampVault/StampVault\">the documentation</
             <label>
                 <input type="checkbox" name="whitelist_found" checked>
                 &nbsp;Show only the <?php echo count($found); ?> countries with local data (nothing found for <?php echo count($missing); ?> countries)
-            </label><br><br>
+            </label><br>
 
-            <div class="horline"></div>
+            <hr>
 
 <?php endif; ?>
 
@@ -352,6 +445,14 @@ $doc = "<a href=\"https://github.com/StampVault/StampVault\">the documentation</
             document.querySelectorAll("input[name=auth]").forEach(
                 r => r.addEventListener("change", showAuth));
             showAuth();
+
+            // one-time password: the enrollment block follows the checkbox
+            const otpBox = document.getElementById("otp-setup");
+            const otpChk = document.getElementById("otp-enable");
+            const showOtp = () => { otpBox.style.display = otpChk.checked ? "" : "none"; };
+            otpChk.addEventListener("change", showOtp);
+            showOtp();
+
         </script>
 <?php endif; ?>
 

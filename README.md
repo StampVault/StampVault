@@ -160,7 +160,9 @@ All configuration lives in `settings.php`:
 
 The simple login can require a 6-digit one-time code (TOTP, RFC 6238) in addition to the password - any authenticator app works (Aegis, Google Authenticator, 1Password, etc.).
 
-To use this additional security, follow these steps:
+The easiest way to use this second factor authentication is by following the instructions in the setup wizard. The wizard's "Simple login" step shows a QR code for your authenticator app (generated on the server by `assets/qrcode.php` - pure PHP, no library and no external service, so the secret never leaves the app) plus the base32 key for manual entry, and asks for the code the app displays to confirm the enrollment before it is saved as `$simple_otp_secret`.
+
+Alternatively, you can set it up by hand by following these steps:
 
 1. Generate a random 32-character base32 secret and copy it into `$simple_otp_secret` in `settings.php`. There are many different ways to generate such a random string, two of which are listed here for reference, but you can choose whichever method you prefer:
 - `OpenSSL`:

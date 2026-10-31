@@ -16,7 +16,7 @@ $simple_password_hash = '';
 // NOTE: The hash needs to be between two 'single' quotation marks as it likely contains dollar signs '$'.
 
 // optional TOTP, empty => off
-// check the README for instructions as to how to fill this
+// filled during setup. Otherwise, check the README for instructions as to how to fill this
 $simple_otp_secret = "";
 
 /*******************************************************************/
