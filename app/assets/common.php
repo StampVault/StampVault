@@ -111,11 +111,11 @@ function continent_folder(string $continent, string $country): string {
 }
 
 function stamps_db_path(string $continent, string $country): string {
-    $folder = continent_folder($continent, $country);
-    return dirname(__DIR__) . "/stamps/data/$folder/$country/data.db";
+    $folder = continent_folder(normalize_continent($continent), $country);
+    return "../stamps/data/$folder/$country/data.db";
 }
 function collection_db_path(string $country): string {
-    return dirname(__DIR__) . "/stamps/collection/$country.db";
+    return "../stamps/collection/$country.db";
 }
 
 // images are in subfolders according to their first two characters
