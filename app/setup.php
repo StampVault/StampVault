@@ -55,7 +55,7 @@ function setup_b32_encode(string $raw): string {
         $out .= $alpha[(int)bindec(str_pad($chunk, 5, "0"))];
     return $out;
 }
-function base32_decode(string $b32): string {
+function setup_b32_decode(string $b32): string {
     $b32 = strtoupper(preg_replace('/[^A-Z2-7]/i', "", $b32));
     $bits = "";
     foreach(str_split($b32) as $c) {
@@ -242,7 +242,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && ($_POST["action"] ?? "") == "save" &&
 
             $generated .= "// optional TOTP, empty => off\n";
             $generated .= "// filled during setup. Otherwise, check the README for instructions as to how to fill this\n";
-            $generated .= "$simple_otp_secret = \"\";\n\n";
+            $generated .= "\$simple_otp_secret = " . var_export($otp_secret_save, true) . ";\n\n";
 
             $generated .= "/*******************************************************************/\n";
             $generated .= "// \"openid\" auth\n";
