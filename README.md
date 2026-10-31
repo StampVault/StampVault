@@ -16,6 +16,7 @@ Plain PHP + SQLite + vanilla JavaScript - no build step, no database server, no 
 - **Dark mode**, keyboard shortcuts, shareable URLs, and a read-only mode (`?read=only`) for showing the collection without allowing changes
 - **Setup wizard**: on first open it checks the environment and data, then lets you pick the login method and set a password - afterwards it doubles as a self-test page (log in and navigate to `setup.php`)
 - Three authentication modes: none, username + password (bcrypt), or OpenID Connect
+- **Login hardening**: failed logins slow the reply down and lock the account out after repeated failures; the simple login can additionally require a 6-digit one-time code (TOTP, RFC 6238) from any authenticator app
 
 ## Screenshots
 
