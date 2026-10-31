@@ -4,7 +4,7 @@
 // central configuration, every other file only reads from here
 
 // possible options: none, simple, openid
-$type_of_auth = 'simple';
+$type_of_auth = 'none';
 
 /*******************************************************************/
 // "simple" auth
